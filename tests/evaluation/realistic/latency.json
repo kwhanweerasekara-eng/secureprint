@@ -1,0 +1,86 @@
+{
+  "runs": 3,
+  "target_ms_20_pages": 3000,
+  "results": [
+    {
+      "profile": "typical",
+      "pages": 1,
+      "detections": 6,
+      "classification": "CONFIDENTIAL",
+      "median_ms": 31.4,
+      "max_ms": 38.2
+    },
+    {
+      "profile": "typical",
+      "pages": 5,
+      "detections": 23,
+      "classification": "RESTRICTED",
+      "median_ms": 108.1,
+      "max_ms": 147.7
+    },
+    {
+      "profile": "typical",
+      "pages": 20,
+      "detections": 83,
+      "classification": "RESTRICTED",
+      "median_ms": 345.7,
+      "max_ms": 494.2
+    },
+    {
+      "profile": "typical",
+      "pages": 50,
+      "detections": 205,
+      "classification": "RESTRICTED",
+      "median_ms": 871.9,
+      "max_ms": 1046.7
+    },
+    {
+      "profile": "typical",
+      "pages": 100,
+      "detections": 413,
+      "classification": "RESTRICTED",
+      "median_ms": 1797.5,
+      "max_ms": 1960.8
+    },
+    {
+      "profile": "dense",
+      "pages": 1,
+      "detections": 242,
+      "classification": "RESTRICTED",
+      "median_ms": 112.3,
+      "max_ms": 112.6
+    },
+    {
+      "profile": "dense",
+      "pages": 5,
+      "detections": 1332,
+      "classification": "RESTRICTED",
+      "median_ms": 590.1,
+      "max_ms": 644.5
+    },
+    {
+      "profile": "dense",
+      "pages": 20,
+      "detections": 5408,
+      "classification": "RESTRICTED",
+      "median_ms": 2651.9,
+      "max_ms": 2803.0
+    },
+    {
+      "profile": "dense",
+      "pages": 50,
+      "detections": 13580,
+      "classification": "RESTRICTED",
+      "median_ms": 7705.5,
+      "max_ms": 7990.4
+    },
+    {
+      "profile": "dense",
+      "pages": 100,
+      "detections": 27203,
+      "classification": "RESTRICTED",
+      "median_ms": 16422.8,
+      "max_ms": 17788.7
+    }
+  ]
+}

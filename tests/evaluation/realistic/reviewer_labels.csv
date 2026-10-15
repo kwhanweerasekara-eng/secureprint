@@ -1,0 +1,68 @@
+filename,title,user_1_simulated,user_2_simulated,user_3_simulated
+001_marketing_brochure.pdf,Lanka Trade Solutions - Services,PUBLIC,PUBLIC,PUBLIC
+002_marketing_brochure.pdf,Lanka Trade Solutions - Services,PUBLIC,PUBLIC,PUBLIC
+003_marketing_brochure.pdf,Lanka Trade Solutions - Services,PUBLIC,PUBLIC,PUBLIC
+004_marketing_brochure.pdf,Lanka Trade Solutions - Services,PUBLIC,PUBLIC,PUBLIC
+005_press_release.pdf,Press release,PUBLIC,PUBLIC,PUBLIC
+006_press_release.pdf,Press release,PUBLIC,PUBLIC,PUBLIC
+007_press_release.pdf,Press release,PUBLIC,PUBLIC,PUBLIC
+008_internal_procedure.pdf,IT procedure: workstation onboarding,INTERNAL,INTERNAL,INTERNAL
+009_internal_procedure.pdf,IT procedure: workstation onboarding,INTERNAL,INTERNAL,INTERNAL
+010_internal_procedure.pdf,IT procedure: workstation onboarding,INTERNAL,INTERNAL,INTERNAL
+011_meeting_minutes.pdf,Minutes - operations meeting,INTERNAL,INTERNAL,INTERNAL
+012_meeting_minutes.pdf,Minutes - operations meeting,INTERNAL,INTERNAL,INTERNAL
+013_meeting_minutes.pdf,Minutes - operations meeting,INTERNAL,INTERNAL,INTERNAL
+014_meeting_minutes.pdf,Minutes - operations meeting,INTERNAL,INTERNAL,INTERNAL
+015_staff_newsletter.pdf,Staff newsletter,INTERNAL,INTERNAL,INTERNAL
+016_staff_newsletter.pdf,Staff newsletter,INTERNAL,INTERNAL,INTERNAL
+017_staff_newsletter.pdf,Staff newsletter,INTERNAL,INTERNAL,INTERNAL
+018_it_asset_register.pdf,IT asset register,INTERNAL,INTERNAL,INTERNAL
+019_it_asset_register.pdf,IT asset register,INTERNAL,INTERNAL,INTERNAL
+020_it_asset_register.pdf,IT asset register,RESTRICTED,CONFIDENTIAL,CONFIDENTIAL
+021_it_asset_register.pdf,IT asset register,RESTRICTED,CONFIDENTIAL,CONFIDENTIAL
+022_employee_record.pdf,Employee personal record,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+023_employee_record.pdf,Employee personal record,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+024_employee_record.pdf,Employee personal record,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+025_employee_record.pdf,Employee personal record,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+026_employee_record.pdf,Employee personal record,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+027_payroll_sheet.pdf,Payroll September 2026,RESTRICTED,RESTRICTED,RESTRICTED
+028_payroll_sheet.pdf,Payroll September 2026,RESTRICTED,RESTRICTED,RESTRICTED
+029_payroll_sheet.pdf,Payroll August 2026,RESTRICTED,RESTRICTED,RESTRICTED
+030_payroll_sheet.pdf,Payroll August 2026,RESTRICTED,RESTRICTED,RESTRICTED
+031_salary_letter.pdf,Salary revision letter,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+032_salary_letter.pdf,Salary revision letter,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+033_salary_letter.pdf,Salary revision letter,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+034_salary_letter.pdf,Salary revision letter,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+035_credential_list.pdf,Server access handover,RESTRICTED,RESTRICTED,RESTRICTED
+036_credential_list.pdf,Server access handover,RESTRICTED,RESTRICTED,RESTRICTED
+037_credential_list.pdf,Server access handover,RESTRICTED,RESTRICTED,RESTRICTED
+038_customer_list.pdf,Customer contact list,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+039_customer_list.pdf,Customer contact list,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+040_customer_list.pdf,Customer contact list,CONFIDENTIAL,RESTRICTED,CONFIDENTIAL
+041_customer_list.pdf,Customer contact list,CONFIDENTIAL,RESTRICTED,CONFIDENTIAL
+042_supplier_contract.pdf,Supply agreement,RESTRICTED,CONFIDENTIAL,CONFIDENTIAL
+043_supplier_contract.pdf,Supply agreement,RESTRICTED,CONFIDENTIAL,CONFIDENTIAL
+044_supplier_contract.pdf,Supply agreement,RESTRICTED,CONFIDENTIAL,CONFIDENTIAL
+045_invoice.pdf,Tax invoice,CONFIDENTIAL,INTERNAL,INTERNAL
+046_invoice.pdf,Tax invoice,CONFIDENTIAL,INTERNAL,INTERNAL
+047_invoice.pdf,Tax invoice,CONFIDENTIAL,INTERNAL,INTERNAL
+048_invoice.pdf,Tax invoice,CONFIDENTIAL,INTERNAL,INTERNAL
+049_job_application.pdf,Curriculum vitae,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+050_job_application.pdf,Curriculum vitae,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+051_job_application.pdf,Curriculum vitae,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+052_job_application.pdf,Curriculum vitae,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+053_card_authorisation.pdf,Card payment authorisation,RESTRICTED,RESTRICTED,RESTRICTED
+054_card_authorisation.pdf,Card payment authorisation,RESTRICTED,RESTRICTED,RESTRICTED
+055_card_authorisation.pdf,Card payment authorisation,RESTRICTED,RESTRICTED,RESTRICTED
+056_travel_request.pdf,Overseas travel request,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+057_travel_request.pdf,Overseas travel request,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+058_travel_request.pdf,Overseas travel request,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+059_config_printout.pdf,Deployment notes,RESTRICTED,RESTRICTED,RESTRICTED
+060_config_printout.pdf,Deployment notes,RESTRICTED,RESTRICTED,RESTRICTED
+061_config_printout.pdf,Deployment notes,RESTRICTED,RESTRICTED,RESTRICTED
+062_leave_application.pdf,Leave application,INTERNAL,CONFIDENTIAL,INTERNAL
+063_leave_application.pdf,Leave application,INTERNAL,CONFIDENTIAL,INTERNAL
+064_leave_application.pdf,Leave application,INTERNAL,CONFIDENTIAL,INTERNAL
+065_bank_transfer.pdf,Payment instruction,RESTRICTED,RESTRICTED,CONFIDENTIAL
+066_bank_transfer.pdf,Payment instruction,RESTRICTED,RESTRICTED,CONFIDENTIAL
+067_bank_transfer.pdf,Payment instruction,RESTRICTED,RESTRICTED,CONFIDENTIAL

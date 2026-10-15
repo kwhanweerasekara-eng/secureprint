@@ -1,0 +1,17 @@
+# Starts the print capture when the user logs in to the desktop.
+#   mkdir -p ~/.config/systemd/user
+#   cp secureprint-capture.service ~/.config/systemd/user/
+#   systemctl --user daemon-reload
+#   systemctl --user enable --now secureprint-capture
+[Unit]
+Description=SecurePrint print capture
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/python3 %h/.local/share/secureprint/capture.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target

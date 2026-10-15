@@ -1,0 +1,273 @@
+{
+  "old_nic": {
+    "category": "nic",
+    "label": "Sri Lankan NIC (Old Format)",
+    "pattern": "\\b\\d{9}[VvXx]\\b",
+    "priority": 50,
+    "enabled": true,
+    "description": "9 digits followed by V or X"
+  },
+  "new_nic": {
+    "category": "nic",
+    "label": "Sri Lankan NIC (New Format)",
+    "pattern": "\\b\\d{12}\\b",
+    "priority": 40,
+    "enabled": true,
+    "description": "12 digit national identity number, validated against plausible birth-year/day-of-year encoding"
+  },
+  "payment_card": {
+    "category": "card",
+    "label": "Payment Card Number",
+    "pattern": "\\b(?:\\d[ -]?){13,19}\\b",
+    "priority": 90,
+    "enabled": true,
+    "description": "13-19 digit sequence validated with a Luhn checksum and a known card-network prefix"
+  },
+  "card_security_code": {
+    "category": "card",
+    "label": "Card security code (CVV/CVC)",
+    "pattern": "(?<![\\d/.,-])\\d{3,4}(?![\\d/.,-])",
+    "priority": 22,
+    "enabled": true,
+    "requires_keyword_context": true,
+    "context_keywords": [
+      "cvv",
+      "cvc",
+      "cvv2",
+      "cvc2",
+      "security code",
+      "card verification code"
+    ],
+    "description": "The 3 or 4 digit code from the back of a card, beside a CVV/CVC label"
+  },
+  "bank_account_context": {
+    "category": "bank_account",
+    "label": "Bank Account Number (contextual)",
+    "pattern": "\\b(?:\\d{8,16}|\\d{4}(?:[ -]\\d{2,4}){1,3})\\b",
+    "priority": 60,
+    "enabled": true,
+    "requires_keyword_context": true,
+    "context_keywords": [
+      "account",
+      "acc no",
+      "account no",
+      "account number",
+      "a/c"
+    ],
+    "description": "8-16 digit number, or digits in groups (1234 5678 9012), labelled as an account number"
+  },
+  "iban": {
+    "category": "iban",
+    "label": "IBAN (International Bank Account Number)",
+    "pattern": "\\b[A-Z]{2}\\d{2}(?:[A-Z0-9]{10,30}|(?:(?: [A-Z0-9]{4}){7}(?: [A-Z0-9]{1,2})?|(?: [A-Z0-9]{4}){3,6}(?: [A-Z0-9]{1,3})?|(?: [A-Z0-9]{4}){2} [A-Z0-9]{3})(?<! [A-Z])(?<! [A-Z]{2})(?<! [A-Z]{3})(?<! [A-Z]{4}))\\b",
+    "priority": 92,
+    "enabled": true,
+    "requires_keyword_context": true,
+    "context_keywords": [
+      "iban"
+    ],
+    "description": "ISO 13616 IBAN structure, written without spaces or in printed groups of four (GB82 WEST 1234 5698 7654 32), near an explicit IBAN label. A grouped IBAN ends at its last group with a digit, so a following word such as BIC is not taken in"
+  },
+  "email": {
+    "category": "email",
+    "label": "Email Address",
+    "pattern": "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b",
+    "priority": 20,
+    "enabled": true,
+    "description": "Standard email address format"
+  },
+  "telephone": {
+    "category": "telephone",
+    "label": "Telephone Number",
+    "pattern": "(?<![\\d+])(?:0\\d{2}[\\s-]?\\d{3}[\\s-]?\\d{4}|\\+94[\\s-]?\\d{2}[\\s-]?\\d{3}[\\s-]?\\d{4})(?![\\d-])",
+    "priority": 15,
+    "enabled": true,
+    "description": "Sri Lankan numbers written as 0771234567, 077 123 4567, 077-1234567, 011-2345678 or +94 77 123 4567"
+  },
+  "credential": {
+    "category": "credential",
+    "label": "Credential / Secret Assignment",
+    "pattern": "(?i)(?<![a-z])(password|passwd|passphrase|pwd)\\s*[:=]\\s*\\S+",
+    "priority": 100,
+    "enabled": true,
+    "description": "A password written after its label, including environment-file style DB_PASSWORD=..."
+  },
+  "credential_field": {
+    "category": "credential",
+    "label": "Password in a table column or form field",
+    "pattern": "(?<!\\S)(?=\\S*[A-Za-z])(?=\\S*[\\d@#!$%^&*_+=?])[^\\s:]{6,64}(?!\\S)",
+    "priority": 45,
+    "enabled": true,
+    "requires_keyword_context": true,
+    "context_keywords": [
+      "password",
+      "passwd",
+      "passphrase",
+      "pwd",
+      "wi-fi password",
+      "pin"
+    ],
+    "description": "A password-shaped value (letters plus digits or symbols) under a Password column header or beside a Password label"
+  },
+  "aws_access_key": {
+    "category": "api_key",
+    "label": "AWS Access Key ID",
+    "pattern": "\\b(?:AKIA|ASIA)[0-9A-Z]{16}\\b",
+    "priority": 100,
+    "enabled": true,
+    "description": "AWS access/session key ID prefix"
+  },
+  "secureprint_token": {
+    "category": "api_key",
+    "label": "SecurePrint Personal Access Token",
+    "pattern": "\\bsp_pat_[A-Za-z0-9_\\-]{20,}\\b",
+    "priority": 100,
+    "enabled": true,
+    "description": "A SecurePrint personal access token (Windows agent credential) printed in a document"
+  },
+  "google_api_key": {
+    "category": "api_key",
+    "label": "Google API Key",
+    "pattern": "\\bAIza[0-9A-Za-z_\\-]{35}\\b",
+    "priority": 100,
+    "enabled": true,
+    "description": "Google Cloud / Maps / Firebase API key"
+  },
+  "github_token": {
+    "category": "api_key",
+    "label": "GitHub Personal Access Token",
+    "pattern": "\\bgh[pousr]_[A-Za-z0-9]{20,255}\\b",
+    "priority": 100,
+    "enabled": true,
+    "description": "GitHub PAT / OAuth / user-to-server token"
+  },
+  "stripe_key": {
+    "category": "api_key",
+    "label": "Stripe API Key",
+    "pattern": "\\b[sp]k_(?:live|test)_[0-9A-Za-z]{16,}\\b",
+    "priority": 100,
+    "enabled": true,
+    "description": "Stripe secret or publishable live/test key"
+  },
+  "slack_token": {
+    "category": "api_key",
+    "label": "Slack Token",
+    "pattern": "\\bxox[baprs]-[0-9A-Za-z-]{10,}\\b",
+    "priority": 100,
+    "enabled": true,
+    "description": "Slack bot/user/app OAuth token"
+  },
+  "jwt_token": {
+    "category": "api_key",
+    "label": "JWT / Bearer Token",
+    "pattern": "(?i)\\bBearer\\s+eyJ[A-Za-z0-9_-]{5,}\\.[A-Za-z0-9_-]{5,}\\.[A-Za-z0-9_-]{5,}\\b|\\beyJ[A-Za-z0-9_-]{5,}\\.[A-Za-z0-9_-]{5,}\\.[A-Za-z0-9_-]{5,}\\b",
+    "priority": 95,
+    "enabled": true,
+    "description": "A JSON Web Token, optionally in an Authorization: Bearer header"
+  },
+  "generic_secret_assignment": {
+    "category": "api_key",
+    "label": "Generic API Key / Secret Assignment",
+    "pattern": "(?i)\\b(api[_ ]?key|secret|access[_ ]?key|access[_ ]?token|auth[_ ]?token|client[_ ]?secret)\\s*[:=]\\s*\\S+",
+    "priority": 95,
+    "enabled": true,
+    "description": "A generic API key/secret/token keyword directly followed by an assigned value"
+  },
+  "private_key_block": {
+    "category": "api_key",
+    "label": "Private Key Block",
+    "pattern": "-----BEGIN (?:RSA |EC |OPENSSH |DSA |PGP )?PRIVATE KEY-----[\\s\\S]+?-----END (?:RSA |EC |OPENSSH |DSA |PGP )?PRIVATE KEY-----",
+    "priority": 100,
+    "enabled": true,
+    "description": "A full PEM-encoded private key block"
+  },
+  "passport_lk_old": {
+    "category": "passport",
+    "label": "Sri Lankan Passport Number (legacy)",
+    "pattern": "\\bN\\d{7}\\b",
+    "priority": 55,
+    "enabled": true,
+    "description": "Legacy Sri Lankan passport format: N followed by 7 digits"
+  },
+  "passport_generic": {
+    "category": "passport",
+    "label": "Passport Number (contextual)",
+    "pattern": "\\b[A-PR-WY][1-9]\\d\\s?\\d{4}[1-9]\\b",
+    "priority": 55,
+    "enabled": true,
+    "requires_keyword_context": true,
+    "context_keywords": [
+      "passport"
+    ],
+    "description": "Generic alphanumeric passport number appearing near a passport label"
+  },
+  "employee_id": {
+    "category": "employee_id",
+    "label": "Employee Identifier",
+    "pattern": "\\b(?:EMP|EID|STAFF)[-\\s]?\\d{3,8}\\b",
+    "priority": 30,
+    "enabled": true,
+    "description": "Employee ID codes such as EMP-00123"
+  },
+  "employee_id_field": {
+    "category": "employee_id",
+    "label": "Employee number (organisation format)",
+    "pattern": "\\b[A-Z]{1,5}[-/]?\\d{3,8}\\b",
+    "priority": 28,
+    "enabled": true,
+    "requires_keyword_context": true,
+    "context_keywords": [
+      "employee no",
+      "employee no.",
+      "emp no",
+      "emp. no",
+      "employee id",
+      "employee number",
+      "staff no",
+      "staff id",
+      "emp id",
+      "employee code"
+    ],
+    "description": "Any letters-plus-digits code (SL/04512, E01234) labelled as an employee number"
+  },
+  "salary_amount": {
+    "category": "salary",
+    "label": "Salary / Payroll Amount",
+    "pattern": "(?i)\\b(?:LKR|Rs\\.?|USD)\\s?[\\d,]+(?:\\.\\d{2})?\\b",
+    "priority": 25,
+    "enabled": true,
+    "description": "Currency amount on a salary line or in a salary column. Prices and invoice totals are not salaries.",
+    "requires_keyword_context": true,
+    "context_keywords": [
+      "salary",
+      "basic salary",
+      "gross pay",
+      "net pay",
+      "basic pay",
+      "payroll",
+      "remuneration",
+      "allowance",
+      "bonus",
+      "expected salary"
+    ]
+  },
+  "salary_amount_context": {
+    "category": "salary",
+    "label": "Salary / Payroll Amount (contextual)",
+    "pattern": "(?<![\\d,.])(?:\\d{1,3}(?:,\\d{3})+(?:\\.\\d{2})?|\\d+\\.\\d{2}|\\d{5,7})(?![\\d,]|\\.\\d)",
+    "priority": 20,
+    "enabled": true,
+    "requires_keyword_context": true,
+    "context_keywords": [
+      "salary",
+      "gross pay",
+      "net pay",
+      "basic pay",
+      "payroll",
+      "remuneration",
+      "allowance",
+      "bonus"
+    ],
+    "description": "Amount with no currency prefix on a salary line, e.g. 'Salary: 285,000' (proposal Appendix B). Only the amount is masked; the label stays readable."
+  }
+}

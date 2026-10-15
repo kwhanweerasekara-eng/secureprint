@@ -1,0 +1,19 @@
+filename,title,user_1_simulated,user_2_simulated,user_3_simulated
+001_loan_application.pdf,Staff loan application,RESTRICTED,RESTRICTED,CONFIDENTIAL
+002_loan_application.pdf,Staff loan application,RESTRICTED,RESTRICTED,CONFIDENTIAL
+003_loan_application.pdf,Staff loan application,RESTRICTED,RESTRICTED,CONFIDENTIAL
+004_hr_letter.pdf,Show cause letter,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+005_hr_letter.pdf,Show cause letter,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+006_hr_letter.pdf,Show cause letter,CONFIDENTIAL,CONFIDENTIAL,CONFIDENTIAL
+007_vendor_registration.pdf,Vendor registration form,RESTRICTED,CONFIDENTIAL,CONFIDENTIAL
+008_vendor_registration.pdf,Vendor registration form,RESTRICTED,CONFIDENTIAL,CONFIDENTIAL
+009_vendor_registration.pdf,Vendor registration form,RESTRICTED,CONFIDENTIAL,CONFIDENTIAL
+010_account_setup_email.pdf,Your remote access account,RESTRICTED,RESTRICTED,RESTRICTED
+011_account_setup_email.pdf,Your remote access account,RESTRICTED,RESTRICTED,RESTRICTED
+012_account_setup_email.pdf,Your remote access account,RESTRICTED,RESTRICTED,RESTRICTED
+013_insurance_claim.pdf,Medical claim form,RESTRICTED,RESTRICTED,CONFIDENTIAL
+014_insurance_claim.pdf,Medical claim form,RESTRICTED,RESTRICTED,CONFIDENTIAL
+015_insurance_claim.pdf,Medical claim form,RESTRICTED,RESTRICTED,CONFIDENTIAL
+016_event_flyer.pdf,Blood donation campaign,PUBLIC,PUBLIC,PUBLIC
+017_event_flyer.pdf,Blood donation campaign,PUBLIC,PUBLIC,PUBLIC
+018_event_flyer.pdf,Blood donation campaign,PUBLIC,PUBLIC,PUBLIC

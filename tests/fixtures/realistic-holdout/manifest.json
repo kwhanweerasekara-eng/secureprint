@@ -1,0 +1,443 @@
+[
+  {
+    "filename": "001_loan_application.pdf",
+    "doc_type": "loan_application",
+    "title": "Staff loan application",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "bank_account",
+      "nic",
+      "salary",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "nic",
+        "value": "872547324V",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "Rs. 160,400.75",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "0386 1461 5311",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 75 411 8774",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "822927669v",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "002_loan_application.pdf",
+    "doc_type": "loan_application",
+    "title": "Staff loan application",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "bank_account",
+      "nic",
+      "salary",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "nic",
+        "value": "856726953V",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "Rs. 77,850.75",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "6482 3620 16",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "078 755 3958",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "831595017v",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "003_loan_application.pdf",
+    "doc_type": "loan_application",
+    "title": "Staff loan application",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "bank_account",
+      "nic",
+      "salary",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "nic",
+        "value": "708202165X",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "Rs. 247,550",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "031729947420",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "0707070921",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "198764608588",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "004_hr_letter.pdf",
+    "doc_type": "hr_letter",
+    "title": "Show cause letter",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "employee_id"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "STAFF-22835",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "005_hr_letter.pdf",
+    "doc_type": "hr_letter",
+    "title": "Show cause letter",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "employee_id"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "E19988",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "006_hr_letter.pdf",
+    "doc_type": "hr_letter",
+    "title": "Show cause letter",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "employee_id"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "E77820",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "007_vendor_registration.pdf",
+    "doc_type": "vendor_registration",
+    "title": "Vendor registration form",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "bank_account",
+      "email",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "telephone",
+        "value": "+94 78 204 4741",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "swijesinghe@islandoffice.lk",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "671585483375",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "008_vendor_registration.pdf",
+    "doc_type": "vendor_registration",
+    "title": "Vendor registration form",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "bank_account",
+      "email",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "telephone",
+        "value": "075-9444729",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "ssenanayake@islandoffice.lk",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "9809 7763 8458",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "009_vendor_registration.pdf",
+    "doc_type": "vendor_registration",
+    "title": "Vendor registration form",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "bank_account",
+      "email",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "telephone",
+        "value": "0701423063",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "kumari.perera@islandoffice.lk",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "966445991550",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "010_account_setup_email.pdf",
+    "doc_type": "account_setup_email",
+    "title": "Your remote access account",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "credential",
+      "email"
+    ],
+    "values": [
+      {
+        "category": "email",
+        "value": "kabeysekera@lankatrade.lk",
+        "page": 0
+      },
+      {
+        "category": "credential",
+        "value": "Sigiriya@2021",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "011_account_setup_email.pdf",
+    "doc_type": "account_setup_email",
+    "title": "Your remote access account",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "credential",
+      "email"
+    ],
+    "values": [
+      {
+        "category": "email",
+        "value": "hiruni.dissanayake@lankatrade.lk",
+        "page": 0
+      },
+      {
+        "category": "credential",
+        "value": "Tiger#230",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "012_account_setup_email.pdf",
+    "doc_type": "account_setup_email",
+    "title": "Your remote access account",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "credential",
+      "email"
+    ],
+    "values": [
+      {
+        "category": "email",
+        "value": "kumarirajapaksha@lankatrade.lk",
+        "page": 0
+      },
+      {
+        "category": "credential",
+        "value": "Kandy#1882",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "013_insurance_claim.pdf",
+    "doc_type": "insurance_claim",
+    "title": "Medical claim form",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "bank_account",
+      "employee_id",
+      "nic",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "nic",
+        "value": "198358303927",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP9074",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "7749299597",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "078-1893564",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "014_insurance_claim.pdf",
+    "doc_type": "insurance_claim",
+    "title": "Medical claim form",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "bank_account",
+      "employee_id",
+      "nic",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "nic",
+        "value": "199235407364",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP25960",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "0426147795",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94709199032",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "015_insurance_claim.pdf",
+    "doc_type": "insurance_claim",
+    "title": "Medical claim form",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "bank_account",
+      "employee_id",
+      "nic",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "nic",
+        "value": "198281103727",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "SL/20626",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "703423029617",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94716986651",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "016_event_flyer.pdf",
+    "doc_type": "event_flyer",
+    "title": "Blood donation campaign",
+    "provisional_classification": "PUBLIC",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "017_event_flyer.pdf",
+    "doc_type": "event_flyer",
+    "title": "Blood donation campaign",
+    "provisional_classification": "PUBLIC",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "018_event_flyer.pdf",
+    "doc_type": "event_flyer",
+    "title": "Blood donation campaign",
+    "provisional_classification": "PUBLIC",
+    "expected_categories": [],
+    "values": []
+  }
+]

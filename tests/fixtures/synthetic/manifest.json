@@ -1,0 +1,834 @@
+[
+  {
+    "filename": "001_public_plain_v0.pdf",
+    "scenario": "public_plain",
+    "expected_categories": [],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "002_public_plain_v1.pdf",
+    "scenario": "public_plain",
+    "expected_categories": [],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "003_public_plain_v2.pdf",
+    "scenario": "public_plain",
+    "expected_categories": [],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "004_public_plain_v3.pdf",
+    "scenario": "public_plain",
+    "expected_categories": [],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "005_public_email_only_v0.pdf",
+    "scenario": "public_email_only",
+    "expected_categories": [
+      "email"
+    ],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "006_public_email_only_v1.pdf",
+    "scenario": "public_email_only",
+    "expected_categories": [
+      "email"
+    ],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "007_public_email_only_v2.pdf",
+    "scenario": "public_email_only",
+    "expected_categories": [
+      "email"
+    ],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "008_public_email_only_v3.pdf",
+    "scenario": "public_email_only",
+    "expected_categories": [
+      "email"
+    ],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "009_public_telephone_only_v0.pdf",
+    "scenario": "public_telephone_only",
+    "expected_categories": [
+      "telephone"
+    ],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "010_public_telephone_only_v1.pdf",
+    "scenario": "public_telephone_only",
+    "expected_categories": [
+      "telephone"
+    ],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "011_public_telephone_only_v2.pdf",
+    "scenario": "public_telephone_only",
+    "expected_categories": [
+      "telephone"
+    ],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "012_public_telephone_only_v3.pdf",
+    "scenario": "public_telephone_only",
+    "expected_categories": [
+      "telephone"
+    ],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "013_public_email_telephone_v0.pdf",
+    "scenario": "public_email_telephone",
+    "expected_categories": [
+      "email",
+      "telephone"
+    ],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "014_public_email_telephone_v1.pdf",
+    "scenario": "public_email_telephone",
+    "expected_categories": [
+      "email",
+      "telephone"
+    ],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "015_public_email_telephone_v2.pdf",
+    "scenario": "public_email_telephone",
+    "expected_categories": [
+      "email",
+      "telephone"
+    ],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "016_public_email_telephone_v3.pdf",
+    "scenario": "public_email_telephone",
+    "expected_categories": [
+      "email",
+      "telephone"
+    ],
+    "expected_classification": "PUBLIC"
+  },
+  {
+    "filename": "017_internal_nic_only_v0.pdf",
+    "scenario": "internal_nic_only",
+    "expected_categories": [
+      "nic"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "018_internal_nic_only_v1.pdf",
+    "scenario": "internal_nic_only",
+    "expected_categories": [
+      "nic"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "019_internal_nic_only_v2.pdf",
+    "scenario": "internal_nic_only",
+    "expected_categories": [
+      "nic"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "020_internal_nic_only_v3.pdf",
+    "scenario": "internal_nic_only",
+    "expected_categories": [
+      "nic"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "021_internal_passport_only_v0.pdf",
+    "scenario": "internal_passport_only",
+    "expected_categories": [
+      "passport"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "022_internal_passport_only_v1.pdf",
+    "scenario": "internal_passport_only",
+    "expected_categories": [
+      "passport"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "023_internal_passport_only_v2.pdf",
+    "scenario": "internal_passport_only",
+    "expected_categories": [
+      "passport"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "024_internal_passport_only_v3.pdf",
+    "scenario": "internal_passport_only",
+    "expected_categories": [
+      "passport"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "025_internal_iban_only_v0.pdf",
+    "scenario": "internal_iban_only",
+    "expected_categories": [
+      "iban"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "026_internal_iban_only_v1.pdf",
+    "scenario": "internal_iban_only",
+    "expected_categories": [
+      "iban"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "027_internal_iban_only_v2.pdf",
+    "scenario": "internal_iban_only",
+    "expected_categories": [
+      "iban"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "028_internal_iban_only_v3.pdf",
+    "scenario": "internal_iban_only",
+    "expected_categories": [
+      "iban"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "029_internal_salary_email_v0.pdf",
+    "scenario": "internal_salary_email",
+    "expected_categories": [
+      "email",
+      "salary"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "030_internal_salary_email_v1.pdf",
+    "scenario": "internal_salary_email",
+    "expected_categories": [
+      "email",
+      "salary"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "031_internal_salary_email_v2.pdf",
+    "scenario": "internal_salary_email",
+    "expected_categories": [
+      "email",
+      "salary"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "032_internal_salary_email_v3.pdf",
+    "scenario": "internal_salary_email",
+    "expected_categories": [
+      "email",
+      "salary"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "033_internal_marker_email_v0.pdf",
+    "scenario": "internal_marker_email",
+    "expected_categories": [
+      "classification_marker",
+      "email"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "034_internal_marker_email_v1.pdf",
+    "scenario": "internal_marker_email",
+    "expected_categories": [
+      "classification_marker",
+      "email"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "035_internal_marker_email_v2.pdf",
+    "scenario": "internal_marker_email",
+    "expected_categories": [
+      "classification_marker",
+      "email"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "036_internal_marker_email_v3.pdf",
+    "scenario": "internal_marker_email",
+    "expected_categories": [
+      "classification_marker",
+      "email"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "037_internal_empid_email_tel_v0.pdf",
+    "scenario": "internal_empid_email_tel",
+    "expected_categories": [
+      "email",
+      "employee_id",
+      "telephone"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "038_internal_empid_email_tel_v1.pdf",
+    "scenario": "internal_empid_email_tel",
+    "expected_categories": [
+      "email",
+      "employee_id",
+      "telephone"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "039_internal_empid_email_tel_v2.pdf",
+    "scenario": "internal_empid_email_tel",
+    "expected_categories": [
+      "email",
+      "employee_id",
+      "telephone"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "040_internal_empid_email_tel_v3.pdf",
+    "scenario": "internal_empid_email_tel",
+    "expected_categories": [
+      "email",
+      "employee_id",
+      "telephone"
+    ],
+    "expected_classification": "INTERNAL"
+  },
+  {
+    "filename": "041_confidential_nic_salary_v0.pdf",
+    "scenario": "confidential_nic_salary",
+    "expected_categories": [
+      "nic",
+      "salary"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "042_confidential_nic_salary_v1.pdf",
+    "scenario": "confidential_nic_salary",
+    "expected_categories": [
+      "nic",
+      "salary"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "043_confidential_nic_salary_v2.pdf",
+    "scenario": "confidential_nic_salary",
+    "expected_categories": [
+      "nic",
+      "salary"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "044_confidential_nic_salary_v3.pdf",
+    "scenario": "confidential_nic_salary",
+    "expected_categories": [
+      "nic",
+      "salary"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "045_confidential_bank_email_tel_v0.pdf",
+    "scenario": "confidential_bank_email_tel",
+    "expected_categories": [
+      "bank_account",
+      "email",
+      "telephone"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "046_confidential_bank_email_tel_v1.pdf",
+    "scenario": "confidential_bank_email_tel",
+    "expected_categories": [
+      "bank_account",
+      "email",
+      "telephone"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "047_confidential_bank_email_tel_v2.pdf",
+    "scenario": "confidential_bank_email_tel",
+    "expected_categories": [
+      "bank_account",
+      "email",
+      "telephone"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "048_confidential_bank_email_tel_v3.pdf",
+    "scenario": "confidential_bank_email_tel",
+    "expected_categories": [
+      "bank_account",
+      "email",
+      "telephone"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "049_confidential_nic_empid_email_v0.pdf",
+    "scenario": "confidential_nic_empid_email",
+    "expected_categories": [
+      "email",
+      "employee_id",
+      "nic"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "050_confidential_nic_empid_email_v1.pdf",
+    "scenario": "confidential_nic_empid_email",
+    "expected_categories": [
+      "email",
+      "employee_id",
+      "nic"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "051_confidential_nic_empid_email_v2.pdf",
+    "scenario": "confidential_nic_empid_email",
+    "expected_categories": [
+      "email",
+      "employee_id",
+      "nic"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "052_confidential_nic_empid_email_v3.pdf",
+    "scenario": "confidential_nic_empid_email",
+    "expected_categories": [
+      "email",
+      "employee_id",
+      "nic"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "053_restricted_floor_credential_email_v0.pdf",
+    "scenario": "restricted_floor_credential_email",
+    "expected_categories": [
+      "credential",
+      "email"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "054_restricted_floor_credential_email_v1.pdf",
+    "scenario": "restricted_floor_credential_email",
+    "expected_categories": [
+      "credential",
+      "email"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "055_restricted_floor_credential_email_v2.pdf",
+    "scenario": "restricted_floor_credential_email",
+    "expected_categories": [
+      "credential",
+      "email"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "056_restricted_floor_credential_email_v3.pdf",
+    "scenario": "restricted_floor_credential_email",
+    "expected_categories": [
+      "credential",
+      "email"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "057_confidential_iban_salary_v0.pdf",
+    "scenario": "confidential_iban_salary",
+    "expected_categories": [
+      "iban",
+      "salary"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "058_confidential_iban_salary_v1.pdf",
+    "scenario": "confidential_iban_salary",
+    "expected_categories": [
+      "iban",
+      "salary"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "059_confidential_iban_salary_v2.pdf",
+    "scenario": "confidential_iban_salary",
+    "expected_categories": [
+      "iban",
+      "salary"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "060_confidential_iban_salary_v3.pdf",
+    "scenario": "confidential_iban_salary",
+    "expected_categories": [
+      "iban",
+      "salary"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "061_confidential_passport_nic_v0.pdf",
+    "scenario": "confidential_passport_nic",
+    "expected_categories": [
+      "nic",
+      "passport"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "062_confidential_passport_nic_v1.pdf",
+    "scenario": "confidential_passport_nic",
+    "expected_categories": [
+      "nic",
+      "passport"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "063_confidential_passport_nic_v2.pdf",
+    "scenario": "confidential_passport_nic",
+    "expected_categories": [
+      "nic",
+      "passport"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "064_confidential_passport_nic_v3.pdf",
+    "scenario": "confidential_passport_nic",
+    "expected_categories": [
+      "nic",
+      "passport"
+    ],
+    "expected_classification": "CONFIDENTIAL"
+  },
+  {
+    "filename": "065_restricted_floor_api_key_alone_v0.pdf",
+    "scenario": "restricted_floor_api_key_alone",
+    "expected_categories": [
+      "api_key"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "066_restricted_floor_api_key_alone_v1.pdf",
+    "scenario": "restricted_floor_api_key_alone",
+    "expected_categories": [
+      "api_key"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "067_restricted_floor_api_key_alone_v2.pdf",
+    "scenario": "restricted_floor_api_key_alone",
+    "expected_categories": [
+      "api_key"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "068_restricted_floor_api_key_alone_v3.pdf",
+    "scenario": "restricted_floor_api_key_alone",
+    "expected_categories": [
+      "api_key"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "069_restricted_credential_nic_bank_v0.pdf",
+    "scenario": "restricted_credential_nic_bank",
+    "expected_categories": [
+      "bank_account",
+      "credential",
+      "nic"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "070_restricted_credential_nic_bank_v1.pdf",
+    "scenario": "restricted_credential_nic_bank",
+    "expected_categories": [
+      "bank_account",
+      "credential",
+      "nic"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "071_restricted_credential_nic_bank_v2.pdf",
+    "scenario": "restricted_credential_nic_bank",
+    "expected_categories": [
+      "bank_account",
+      "credential",
+      "nic"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "072_restricted_credential_nic_bank_v3.pdf",
+    "scenario": "restricted_credential_nic_bank",
+    "expected_categories": [
+      "bank_account",
+      "credential",
+      "nic"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "073_restricted_nic_bank_salary_email_v0.pdf",
+    "scenario": "restricted_nic_bank_salary_email",
+    "expected_categories": [
+      "bank_account",
+      "email",
+      "nic",
+      "salary"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "074_restricted_nic_bank_salary_email_v1.pdf",
+    "scenario": "restricted_nic_bank_salary_email",
+    "expected_categories": [
+      "bank_account",
+      "email",
+      "nic",
+      "salary"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "075_restricted_nic_bank_salary_email_v2.pdf",
+    "scenario": "restricted_nic_bank_salary_email",
+    "expected_categories": [
+      "bank_account",
+      "email",
+      "nic",
+      "salary"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "076_restricted_nic_bank_salary_email_v3.pdf",
+    "scenario": "restricted_nic_bank_salary_email",
+    "expected_categories": [
+      "bank_account",
+      "email",
+      "nic",
+      "salary"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "077_restricted_credential_card_v0.pdf",
+    "scenario": "restricted_credential_card",
+    "expected_categories": [
+      "card",
+      "credential"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "078_restricted_credential_card_v1.pdf",
+    "scenario": "restricted_credential_card",
+    "expected_categories": [
+      "card",
+      "credential"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "079_restricted_credential_card_v2.pdf",
+    "scenario": "restricted_credential_card",
+    "expected_categories": [
+      "card",
+      "credential"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "080_restricted_credential_card_v3.pdf",
+    "scenario": "restricted_credential_card",
+    "expected_categories": [
+      "card",
+      "credential"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "081_restricted_full_payroll_v0.pdf",
+    "scenario": "restricted_full_payroll",
+    "expected_categories": [
+      "bank_account",
+      "credential",
+      "employee_id",
+      "nic",
+      "salary"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "082_restricted_full_payroll_v1.pdf",
+    "scenario": "restricted_full_payroll",
+    "expected_categories": [
+      "bank_account",
+      "credential",
+      "employee_id",
+      "nic",
+      "salary"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "083_restricted_full_payroll_v2.pdf",
+    "scenario": "restricted_full_payroll",
+    "expected_categories": [
+      "bank_account",
+      "credential",
+      "employee_id",
+      "nic",
+      "salary"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "084_restricted_full_payroll_v3.pdf",
+    "scenario": "restricted_full_payroll",
+    "expected_categories": [
+      "bank_account",
+      "credential",
+      "employee_id",
+      "nic",
+      "salary"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "085_restricted_api_key_credential_v0.pdf",
+    "scenario": "restricted_api_key_credential",
+    "expected_categories": [
+      "api_key",
+      "credential"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "086_restricted_api_key_credential_v1.pdf",
+    "scenario": "restricted_api_key_credential",
+    "expected_categories": [
+      "api_key",
+      "credential"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "087_restricted_api_key_credential_v2.pdf",
+    "scenario": "restricted_api_key_credential",
+    "expected_categories": [
+      "api_key",
+      "credential"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "088_restricted_api_key_credential_v3.pdf",
+    "scenario": "restricted_api_key_credential",
+    "expected_categories": [
+      "api_key",
+      "credential"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "089_restricted_api_key_passport_nic_v0.pdf",
+    "scenario": "restricted_api_key_passport_nic",
+    "expected_categories": [
+      "api_key",
+      "nic",
+      "passport"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "090_restricted_api_key_passport_nic_v1.pdf",
+    "scenario": "restricted_api_key_passport_nic",
+    "expected_categories": [
+      "api_key",
+      "nic",
+      "passport"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "091_restricted_api_key_passport_nic_v2.pdf",
+    "scenario": "restricted_api_key_passport_nic",
+    "expected_categories": [
+      "api_key",
+      "nic",
+      "passport"
+    ],
+    "expected_classification": "RESTRICTED"
+  },
+  {
+    "filename": "092_restricted_api_key_passport_nic_v3.pdf",
+    "scenario": "restricted_api_key_passport_nic",
+    "expected_categories": [
+      "api_key",
+      "nic",
+      "passport"
+    ],
+    "expected_classification": "RESTRICTED"
+  }
+]

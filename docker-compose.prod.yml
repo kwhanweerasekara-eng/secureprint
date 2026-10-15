@@ -1,0 +1,65 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - secureprint_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    container_name: secureprint-api
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      JWT_SECRET: ${JWT_SECRET}
+      JWT_ALGORITHM: HS256
+      JWT_EXPIRE_MINUTES: 480
+      COOKIE_NAME: secureprint_session
+      COOKIE_SECURE: "true"
+      CORS_ORIGINS: '["https://print.example.com"]'
+      ORGANISATION_NAME: ${ORGANISATION_NAME}
+      MAX_UPLOAD_MB: 25
+      ENVIRONMENT: production
+      DEFAULT_ADMIN_PASSWORD: ${DEFAULT_ADMIN_PASSWORD}
+      DEFAULT_STAFF_PASSWORD: ${DEFAULT_STAFF_PASSWORD}
+    volumes:
+      - secureprint_storage:/repo/storage
+    networks:
+      - default
+      - lioncoin_default
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      args:
+        NEXT_PUBLIC_API_BASE_URL: https://print.example.com
+    container_name: secureprint-web
+    restart: unless-stopped
+    depends_on:
+      - api
+    networks:
+      - default
+      - lioncoin_default
+
+volumes:
+  secureprint_pgdata:
+  secureprint_storage:
+
+networks:
+  lioncoin_default:
+    external: true

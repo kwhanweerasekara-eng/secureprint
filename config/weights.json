@@ -1,0 +1,14 @@
+{
+  "credential": {"label": "Credential", "weight": 40, "min_classification": "RESTRICTED"},
+  "api_key": {"label": "API Key / Secret", "weight": 45, "min_classification": "RESTRICTED"},
+  "card": {"label": "Payment Card", "weight": 40, "min_classification": "RESTRICTED"},
+  "bank_account": {"label": "Bank Account", "weight": 30},
+  "iban": {"label": "IBAN", "weight": 30},
+  "nic": {"label": "National Identity Number", "weight": 30},
+  "passport": {"label": "Passport Number", "weight": 30},
+  "salary": {"label": "Salary", "weight": 20},
+  "employee_id": {"label": "Employee Identifier", "weight": 15},
+  "email": {"label": "Email", "weight": 10},
+  "telephone": {"label": "Telephone", "weight": 10},
+  "classification_marker": {"label": "Classification Marker", "weight": 20}
+}

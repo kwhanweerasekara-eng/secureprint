@@ -1,0 +1,54 @@
+{
+  "credential": [
+    "password",
+    "passwd",
+    "passphrase",
+    "pwd"
+  ],
+  "api_key": [
+    "api key",
+    "secret",
+    "access key",
+    "access token",
+    "auth token",
+    "client secret",
+    "private key"
+  ],
+  "salary": [
+    "salary",
+    "basic salary",
+    "gross pay",
+    "net pay",
+    "payroll",
+    "monthly salary",
+    "salary slip"
+  ],
+  "classification_marker": [
+    "confidential",
+    "restricted",
+    "internal use only",
+    "strictly private",
+    "top secret"
+  ],
+  "employee_id": [
+    "employee id",
+    "employee no",
+    "staff id",
+    "emp id"
+  ],
+  "bank_account": [
+    "account",
+    "acc no",
+    "account no",
+    "account number",
+    "a/c"
+  ],
+  "iban": [
+    "iban"
+  ],
+  "passport": [
+    "passport",
+    "passport no",
+    "passport number"
+  ]
+}

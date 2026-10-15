@@ -1,0 +1,3186 @@
+[
+  {
+    "filename": "001_marketing_brochure.pdf",
+    "doc_type": "marketing_brochure",
+    "title": "Lanka Trade Solutions - Services",
+    "provisional_classification": "PUBLIC",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "002_marketing_brochure.pdf",
+    "doc_type": "marketing_brochure",
+    "title": "Lanka Trade Solutions - Services",
+    "provisional_classification": "PUBLIC",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "003_marketing_brochure.pdf",
+    "doc_type": "marketing_brochure",
+    "title": "Lanka Trade Solutions - Services",
+    "provisional_classification": "PUBLIC",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "004_marketing_brochure.pdf",
+    "doc_type": "marketing_brochure",
+    "title": "Lanka Trade Solutions - Services",
+    "provisional_classification": "PUBLIC",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "005_press_release.pdf",
+    "doc_type": "press_release",
+    "title": "Press release",
+    "provisional_classification": "PUBLIC",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "006_press_release.pdf",
+    "doc_type": "press_release",
+    "title": "Press release",
+    "provisional_classification": "PUBLIC",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "007_press_release.pdf",
+    "doc_type": "press_release",
+    "title": "Press release",
+    "provisional_classification": "PUBLIC",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "008_internal_procedure.pdf",
+    "doc_type": "internal_procedure",
+    "title": "IT procedure: workstation onboarding",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "009_internal_procedure.pdf",
+    "doc_type": "internal_procedure",
+    "title": "IT procedure: workstation onboarding",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "010_internal_procedure.pdf",
+    "doc_type": "internal_procedure",
+    "title": "IT procedure: workstation onboarding",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "011_meeting_minutes.pdf",
+    "doc_type": "meeting_minutes",
+    "title": "Minutes - operations meeting",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [
+      "email"
+    ],
+    "values": [
+      {
+        "category": "email",
+        "value": "mperera@lankatrade.lk",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "012_meeting_minutes.pdf",
+    "doc_type": "meeting_minutes",
+    "title": "Minutes - operations meeting",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [
+      "email"
+    ],
+    "values": [
+      {
+        "category": "email",
+        "value": "dineshdissanayake@lankatrade.lk",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "013_meeting_minutes.pdf",
+    "doc_type": "meeting_minutes",
+    "title": "Minutes - operations meeting",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [
+      "email"
+    ],
+    "values": [
+      {
+        "category": "email",
+        "value": "ruwan_dissanayake@lankatrade.lk",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "014_meeting_minutes.pdf",
+    "doc_type": "meeting_minutes",
+    "title": "Minutes - operations meeting",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [
+      "email"
+    ],
+    "values": [
+      {
+        "category": "email",
+        "value": "ishara_perera@lankatrade.lk",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "015_staff_newsletter.pdf",
+    "doc_type": "staff_newsletter",
+    "title": "Staff newsletter",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "016_staff_newsletter.pdf",
+    "doc_type": "staff_newsletter",
+    "title": "Staff newsletter",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "017_staff_newsletter.pdf",
+    "doc_type": "staff_newsletter",
+    "title": "Staff newsletter",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "018_it_asset_register.pdf",
+    "doc_type": "it_asset_register",
+    "title": "IT asset register",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "019_it_asset_register.pdf",
+    "doc_type": "it_asset_register",
+    "title": "IT asset register",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [],
+    "values": []
+  },
+  {
+    "filename": "020_it_asset_register.pdf",
+    "doc_type": "it_asset_register",
+    "title": "IT asset register",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "credential"
+    ],
+    "values": [
+      {
+        "category": "credential",
+        "value": "Lotus#1161",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "021_it_asset_register.pdf",
+    "doc_type": "it_asset_register",
+    "title": "IT asset register",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "credential"
+    ],
+    "values": [
+      {
+        "category": "credential",
+        "value": "Kandy_557",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "022_employee_record.pdf",
+    "doc_type": "employee_record",
+    "title": "Employee personal record",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "email",
+      "employee_id",
+      "nic",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "SL/46613",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "197034502070",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "070 281 2240",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "hiruni.perera@yahoo.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "071-4974994",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "023_employee_record.pdf",
+    "doc_type": "employee_record",
+    "title": "Employee personal record",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "email",
+      "employee_id",
+      "nic",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "EMP15373",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "758309819V",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "0762571257",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "nimaljayawardena@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94723792068",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "024_employee_record.pdf",
+    "doc_type": "employee_record",
+    "title": "Employee personal record",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "email",
+      "employee_id",
+      "nic",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "STAFF-35511",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "198711303748",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "072-3850771",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "nadeesha.abeysekera@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 72 992 4548",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "025_employee_record.pdf",
+    "doc_type": "employee_record",
+    "title": "Employee personal record",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "email",
+      "employee_id",
+      "nic",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "SL/16762",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "200121604283",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 78 761 7961",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "sanduniabeysekera@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "078 224 1986",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "026_employee_record.pdf",
+    "doc_type": "employee_record",
+    "title": "Employee personal record",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "email",
+      "employee_id",
+      "nic",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "E23172",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "801205425v",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 70 429 2834",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "kherath@yahoo.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "0709636107",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "027_payroll_sheet.pdf",
+    "doc_type": "payroll_sheet",
+    "title": "Payroll September 2026",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "bank_account",
+      "employee_id",
+      "nic",
+      "salary"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "E04577",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "199366703350",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "175837053072",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "401,950.00",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "272,950",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP80133",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "200271906216",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "7107 2577 9788",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "214,500.75",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "83,500",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "E05611",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "892226980X",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "753319142468",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "349,450",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "96,750.75",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "SL/06049",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "938529294v",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "547374579773",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "401,400",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "239,150.00",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP-63099",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "199706609502",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "4078 9707 5725 21",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "349,300.75",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "245,250.75",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "E26485",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "921507877V",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "4488840850",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "350,250.75",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "182,600.75",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP-34573",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "950315099X",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "217665249174",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "383,650",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "226,350.00",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "E72938",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "832577387V",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "814660162357",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "303,850.75",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "228,100.75",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP34495",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "200379207936",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "460323786452",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "124,950.25",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "253,450",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "STAFF-47136",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "915869185X",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "512225507908",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "241,400.00",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "372,300.25",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "SL/01238",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "196958708364",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "0496 8870 6561",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "144,800.00",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "100,000.75",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP-88167",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "828587866X",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "5481876648",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "205,050.25",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "324,000.50",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "SL/12181",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "199730604450",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "828570559486",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "130,700",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "99,950",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "SL/65472",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "198957204800",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "2058 8790 6491 16",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "245,800",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "365,750.75",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "028_payroll_sheet.pdf",
+    "doc_type": "payroll_sheet",
+    "title": "Payroll September 2026",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "bank_account",
+      "employee_id",
+      "nic",
+      "salary"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "SL/83099",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "198354005183",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "445631371975",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "144,450.25",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "145,100.25",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP-05005",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "848023086X",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "9613 6397 6610",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "336,800",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "183,600",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP76262",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "199900308281",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "966629363502",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "296,700.50",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "263,500.75",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "STAFF-60924",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "877812250V",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "723769679800",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "259,850",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "163,300",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "STAFF-32597",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "976413945V",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "4439867499",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "183,100.00",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "314,750",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "STAFF-21869",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "198566601551",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "8662 6802 7859",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "107,000.75",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "242,550.50",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "STAFF-62087",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "196584605908",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "218242937465",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "219,050",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "168,800",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "STAFF-44521",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "199115101919",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "78303982719194",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "204,250.50",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "68,700",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP7706",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "676083280v",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "2627 6229 79",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "437,450.75",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "107,250.00",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "E47761",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "973045564X",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "0204 9800 9811",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "315,000.75",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "246,050.00",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP77481",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "718561878X",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "25252282388548",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "269,150.00",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "346,100.50",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "029_payroll_sheet.pdf",
+    "doc_type": "payroll_sheet",
+    "title": "Payroll August 2026",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "bank_account",
+      "employee_id",
+      "nic",
+      "salary"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "SL/57432",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "198366808046",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "442190376546",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "262,800.00",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "92,150",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP-55183",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "198707503678",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "5775082055",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "179,850.25",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "370,650.75",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP-21781",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "778139548V",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "743622062457",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "318,050",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "120,450",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP52425",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "878525188X",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "00821798181989",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "290,850.75",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "80,150.75",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP-37304",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "970046679V",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "6757 9278 0080",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "68,450.00",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "164,250.75",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "EMP-09046",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "198322408201",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "7642 4929 7129",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "139,150.00",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "259,450",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "STAFF-40955",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "197769202002",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "998009540419",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "76,850.50",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "156,300.00",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "E15792",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "785474345v",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "087653018682",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "382,150.50",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "267,600.50",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "E40308",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "865222257v",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "7767 2205 3621",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "352,050.25",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "104,500",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "E03780",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "199717206386",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "34232189852603",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "85,150",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "354,950.25",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "SL/25591",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "199363408403",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "4778934477",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "279,350",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "260,150",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "E76091",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "197806807720",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "337573462106",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "394,600.75",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "170,150",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "STAFF-21861",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "197975607867",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "149695182559",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "362,600.00",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "83,550.00",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "E86729",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "905383286V",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "753777048448",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "80,400.00",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "87,650",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "SL/74621",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "196661404508",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "9512162512",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "302,150.25",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "266,250",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "030_payroll_sheet.pdf",
+    "doc_type": "payroll_sheet",
+    "title": "Payroll August 2026",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "bank_account",
+      "employee_id",
+      "nic",
+      "salary"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "SL/51309",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "197082908616",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "9307 2981 2191",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "388,500",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "344,400.00",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "SL/50961",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "197435603305",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "544933288847",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "205,700.00",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "93,450",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "SL/67958",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "199635003297",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "531522882120",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "404,350",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "248,600.00",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "E50066",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "197978006237",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "31243869440725",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "257,850",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "249,000",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "E56172",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "788037532V",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "137105765654",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "400,050",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "66,350",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "SL/83220",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "197772501843",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "3336 3918 1188 00",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "126,300",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "97,100.75",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "STAFF-83836",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "198763402332",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "421589170784",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "281,550",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "203,850.00",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "SL/15501",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "198272409814",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "9391 9696 3816",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "245,750.00",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "210,100.00",
+        "page": 0
+      },
+      {
+        "category": "employee_id",
+        "value": "E17826",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "198080801873",
+        "page": 0
+      },
+      {
+        "category": "bank_account",
+        "value": "248816665114",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "109,350",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "247,200.00",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "031_salary_letter.pdf",
+    "doc_type": "salary_letter",
+    "title": "Salary revision letter",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "employee_id",
+      "salary"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "STAFF-54188",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "186,650",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "279,350",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "032_salary_letter.pdf",
+    "doc_type": "salary_letter",
+    "title": "Salary revision letter",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "employee_id",
+      "salary"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "E57700",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "165,650.75",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "279,700.50",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "033_salary_letter.pdf",
+    "doc_type": "salary_letter",
+    "title": "Salary revision letter",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "employee_id",
+      "salary"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "SL/10709",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "185,950",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "206,600.25",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "034_salary_letter.pdf",
+    "doc_type": "salary_letter",
+    "title": "Salary revision letter",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "employee_id",
+      "salary"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "EMP-96797",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "109,300.50",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "263,800.75",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "035_credential_list.pdf",
+    "doc_type": "credential_list",
+    "title": "Server access handover",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "credential"
+    ],
+    "values": [
+      {
+        "category": "credential",
+        "value": "Tiger#336",
+        "page": 0
+      },
+      {
+        "category": "credential",
+        "value": "Lotus#1924",
+        "page": 0
+      },
+      {
+        "category": "credential",
+        "value": "Galle#902",
+        "page": 0
+      },
+      {
+        "category": "credential",
+        "value": "Sigiriya_1376",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "036_credential_list.pdf",
+    "doc_type": "credential_list",
+    "title": "Server access handover",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "credential"
+    ],
+    "values": [
+      {
+        "category": "credential",
+        "value": "Kandy@31",
+        "page": 0
+      },
+      {
+        "category": "credential",
+        "value": "Ceylon!748",
+        "page": 0
+      },
+      {
+        "category": "credential",
+        "value": "Tiger_1392",
+        "page": 0
+      },
+      {
+        "category": "credential",
+        "value": "Winter@553",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "037_credential_list.pdf",
+    "doc_type": "credential_list",
+    "title": "Server access handover",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "credential"
+    ],
+    "values": [
+      {
+        "category": "credential",
+        "value": "Kandy#1157",
+        "page": 0
+      },
+      {
+        "category": "credential",
+        "value": "Sigiriya!198",
+        "page": 0
+      },
+      {
+        "category": "credential",
+        "value": "Monsoon!400",
+        "page": 0
+      },
+      {
+        "category": "credential",
+        "value": "Galle_1511",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "038_customer_list.pdf",
+    "doc_type": "customer_list",
+    "title": "Customer contact list",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "email",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "telephone",
+        "value": "0771275612",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "chamara_wickramasinghe@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "070 292 6608",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "sanduni.perera@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "078 651 1607",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "diliniherath@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94709864708",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "mrizvi@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94758687973",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "mherath@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "072 884 8607",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "hiruni_gunasekara@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94758862976",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "hiruni.wickramasinghe@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94713609716",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "lwijesinghe@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "077-6322332",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "hiruni.rizvi@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "0777005254",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "sunildissanayake@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "076-5933582",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "dsilva@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 70 760 2131",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "ruwan.dissanayake@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "071-5131848",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "nadeesha.jayawardena@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94767230894",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "dinesh.bandara@gmail.com",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "039_customer_list.pdf",
+    "doc_type": "customer_list",
+    "title": "Customer contact list",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "email",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "telephone",
+        "value": "0785265292",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "dilini.silva@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "0763452122",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "fathima_bandara@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94758586231",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "ruwan.wijesinghe@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94772968931",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "kperera@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "0719494206",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "njayawardena@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 71 679 0393",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "rkumar@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "078 267 4764",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "cabeysekera@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94751930937",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "priya.rajapaksha@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "077-1473314",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "nimal_rajapaksha@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "071-8103522",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "priya_herath@gmail.com",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "040_customer_list.pdf",
+    "doc_type": "customer_list",
+    "title": "Customer contact list",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "email",
+      "nic",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "telephone",
+        "value": "077 863 4630",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "tharushisenanayake@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "781595948V",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "072-6541626",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "mohamed.wijesinghe@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "199664707026",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 76 616 8407",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "swickramasinghe@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "200224502064",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 75 490 0918",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "tharushi_dissanayake@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "737659913V",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "072 707 1154",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "kumari_kumar@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "811413748V",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "078 571 6890",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "dsilva@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "926367823V",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 77 308 0048",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "chamarabandara@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "872761279v",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 77 963 5141",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "fathimaherath@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "806599099v",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94769407500",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "malsha_wickramasinghe@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "868003277X",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 71 896 7467",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "fathimadissanayake@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "197169406213",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94778381284",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "kdissanayake@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "981186233V",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "0779787909",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "kasunsenanayake@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "695722360V",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "041_customer_list.pdf",
+    "doc_type": "customer_list",
+    "title": "Customer contact list",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "email",
+      "nic",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "telephone",
+        "value": "0726122138",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "lahirufernando@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "196875404071",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "078 729 2328",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "sunil.bandara@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "199917507369",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94771564368",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "hirunidissanayake@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "198100103438",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 76 275 9025",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "iabeysekera@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "710387516v",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "070 142 0992",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "csenanayake@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "858385243V",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 71 649 0488",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "chamara_kumar@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "197865903943",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94777653003",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "nkumar@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "780657653V",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "071-3418641",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "mperera@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "685509967V",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "0718811324",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "dinesh.wickramasinghe@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "199373805153",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 70 656 8725",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "ruwan.perera@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "197763403165",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94722564137",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "malshafernando@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "745208047X",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 76 316 5244",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "arjunrajapaksha@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "197831109575",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94722653469",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "hiruni.jayawardena@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "199954707424",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "042_supplier_contract.pdf",
+    "doc_type": "supplier_contract",
+    "title": "Supply agreement",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "bank_account"
+    ],
+    "values": [
+      {
+        "category": "bank_account",
+        "value": "595200786563",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "043_supplier_contract.pdf",
+    "doc_type": "supplier_contract",
+    "title": "Supply agreement",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "bank_account"
+    ],
+    "values": [
+      {
+        "category": "bank_account",
+        "value": "4756 5218 9305",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "044_supplier_contract.pdf",
+    "doc_type": "supplier_contract",
+    "title": "Supply agreement",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "bank_account"
+    ],
+    "values": [
+      {
+        "category": "bank_account",
+        "value": "857632981236",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "045_invoice.pdf",
+    "doc_type": "invoice",
+    "title": "Tax invoice",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [
+      "bank_account"
+    ],
+    "values": [
+      {
+        "category": "bank_account",
+        "value": "396968312607",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "046_invoice.pdf",
+    "doc_type": "invoice",
+    "title": "Tax invoice",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [
+      "bank_account"
+    ],
+    "values": [
+      {
+        "category": "bank_account",
+        "value": "55560396946704",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "047_invoice.pdf",
+    "doc_type": "invoice",
+    "title": "Tax invoice",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [
+      "bank_account"
+    ],
+    "values": [
+      {
+        "category": "bank_account",
+        "value": "9269 6936 45",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "048_invoice.pdf",
+    "doc_type": "invoice",
+    "title": "Tax invoice",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [
+      "bank_account"
+    ],
+    "values": [
+      {
+        "category": "bank_account",
+        "value": "860459782886",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "049_job_application.pdf",
+    "doc_type": "job_application",
+    "title": "Curriculum vitae",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "email",
+      "nic",
+      "salary",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "telephone",
+        "value": "+94 71 993 6426",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "kasun_fernando@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "842364458V",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "171,800.75",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "050_job_application.pdf",
+    "doc_type": "job_application",
+    "title": "Curriculum vitae",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "email",
+      "nic",
+      "salary",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "telephone",
+        "value": "0777184937",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "malsha.kumar@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "806821041v",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "154,700.00",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "051_job_application.pdf",
+    "doc_type": "job_application",
+    "title": "Curriculum vitae",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "email",
+      "nic",
+      "salary",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "telephone",
+        "value": "+94 78 114 7932",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "ruwanrizvi@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "198801709672",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "101,200.25",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "052_job_application.pdf",
+    "doc_type": "job_application",
+    "title": "Curriculum vitae",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "email",
+      "nic",
+      "salary",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "telephone",
+        "value": "070-3478252",
+        "page": 0
+      },
+      {
+        "category": "email",
+        "value": "dinesh.herath@gmail.com",
+        "page": 0
+      },
+      {
+        "category": "nic",
+        "value": "199582301187",
+        "page": 0
+      },
+      {
+        "category": "salary",
+        "value": "142,750.75",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "053_card_authorisation.pdf",
+    "doc_type": "card_authorisation",
+    "title": "Card payment authorisation",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "card",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "card",
+        "value": "4002 8588 6465 8993",
+        "page": 0
+      },
+      {
+        "category": "card",
+        "value": "113",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "0715106676",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "054_card_authorisation.pdf",
+    "doc_type": "card_authorisation",
+    "title": "Card payment authorisation",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "card",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "card",
+        "value": "4084 9713 7001 1598",
+        "page": 0
+      },
+      {
+        "category": "card",
+        "value": "852",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "076 138 4073",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "055_card_authorisation.pdf",
+    "doc_type": "card_authorisation",
+    "title": "Card payment authorisation",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "card",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "card",
+        "value": "4955-9260-7435-8659",
+        "page": 0
+      },
+      {
+        "category": "card",
+        "value": "758",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 71 775 8003",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "056_travel_request.pdf",
+    "doc_type": "travel_request",
+    "title": "Overseas travel request",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "employee_id",
+      "passport",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "SL/26737",
+        "page": 0
+      },
+      {
+        "category": "passport",
+        "value": "N2867885",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "077-9726938",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "057_travel_request.pdf",
+    "doc_type": "travel_request",
+    "title": "Overseas travel request",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "employee_id",
+      "passport",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "EMP-65213",
+        "page": 0
+      },
+      {
+        "category": "passport",
+        "value": "N9368400",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 76 270 3282",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "058_travel_request.pdf",
+    "doc_type": "travel_request",
+    "title": "Overseas travel request",
+    "provisional_classification": "CONFIDENTIAL",
+    "expected_categories": [
+      "employee_id",
+      "passport",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "E88827",
+        "page": 0
+      },
+      {
+        "category": "passport",
+        "value": "N4486952",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "0758847343",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "059_config_printout.pdf",
+    "doc_type": "config_printout",
+    "title": "Deployment notes",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "api_key",
+      "credential"
+    ],
+    "values": [
+      {
+        "category": "credential",
+        "value": "Sigiriya@1476",
+        "page": 0
+      },
+      {
+        "category": "api_key",
+        "value": "sk_live_ok82rdijt06g69xkle82rxlf",
+        "page": 0
+      },
+      {
+        "category": "api_key",
+        "value": "ghp_RJHPxNJopYBfTbWMUdEJ1T0m9KIGlQv4On0R",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "060_config_printout.pdf",
+    "doc_type": "config_printout",
+    "title": "Deployment notes",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "api_key",
+      "credential"
+    ],
+    "values": [
+      {
+        "category": "credential",
+        "value": "Kandy#583",
+        "page": 0
+      },
+      {
+        "category": "api_key",
+        "value": "sk_live_746eewb2lap4x02u3x5l4lg9",
+        "page": 0
+      },
+      {
+        "category": "api_key",
+        "value": "ghp_BSMRskOtDaGOSkrtk2OxTFTKSGowQFadoKI3",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "061_config_printout.pdf",
+    "doc_type": "config_printout",
+    "title": "Deployment notes",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "api_key",
+      "credential"
+    ],
+    "values": [
+      {
+        "category": "credential",
+        "value": "Galle_933",
+        "page": 0
+      },
+      {
+        "category": "api_key",
+        "value": "sk_live_as1d8jcpgw2lruvhtqbgap86",
+        "page": 0
+      },
+      {
+        "category": "api_key",
+        "value": "ghp_1JJvzxBdFUoCsMlixYv0d03GbUFd50baKKda",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "062_leave_application.pdf",
+    "doc_type": "leave_application",
+    "title": "Leave application",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [
+      "employee_id",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "SL/08828",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "0759343124",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "063_leave_application.pdf",
+    "doc_type": "leave_application",
+    "title": "Leave application",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [
+      "employee_id",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "SL/58151",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "+94 71 977 1386",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "064_leave_application.pdf",
+    "doc_type": "leave_application",
+    "title": "Leave application",
+    "provisional_classification": "INTERNAL",
+    "expected_categories": [
+      "employee_id",
+      "telephone"
+    ],
+    "values": [
+      {
+        "category": "employee_id",
+        "value": "E77254",
+        "page": 0
+      },
+      {
+        "category": "telephone",
+        "value": "078-6551340",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "065_bank_transfer.pdf",
+    "doc_type": "bank_transfer",
+    "title": "Payment instruction",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "bank_account",
+      "iban"
+    ],
+    "values": [
+      {
+        "category": "bank_account",
+        "value": "509187286355",
+        "page": 0
+      },
+      {
+        "category": "iban",
+        "value": "GB53BARC66498075851078",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "066_bank_transfer.pdf",
+    "doc_type": "bank_transfer",
+    "title": "Payment instruction",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "bank_account",
+      "iban"
+    ],
+    "values": [
+      {
+        "category": "bank_account",
+        "value": "2862 7786 11",
+        "page": 0
+      },
+      {
+        "category": "iban",
+        "value": "GB10BARC61391411468156",
+        "page": 0
+      }
+    ]
+  },
+  {
+    "filename": "067_bank_transfer.pdf",
+    "doc_type": "bank_transfer",
+    "title": "Payment instruction",
+    "provisional_classification": "RESTRICTED",
+    "expected_categories": [
+      "bank_account",
+      "iban"
+    ],
+    "values": [
+      {
+        "category": "bank_account",
+        "value": "098808127981",
+        "page": 0
+      },
+      {
+        "category": "iban",
+        "value": "GB76BARC05645566446985",
+        "page": 0
+      }
+    ]
+  }
+]

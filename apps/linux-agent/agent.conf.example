@@ -1,0 +1,30 @@
+# Copy to ~/.config/secureprint/agent.conf and fill in.
+# Environment variables with the same names override these values.
+
+# Address of the SecurePrint web app.
+SERVER_URL=http://192.168.1.10:8000
+
+# Personal Access Token from the web app: Settings > Access tokens.
+API_TOKEN=
+
+# Where checked jobs are printed. Set ONE of these:
+#   SERVER_PRINTER - name or id of a printer on the web app's Printers page
+#                    (the server sends the job to it).
+#   LOCAL_PRINTER  - a CUPS printer on this computer (see `lpstat -p`).
+#                    Never set this to SecurePrint itself.
+SERVER_PRINTER=
+LOCAL_PRINTER=
+
+# Folder cups-pdf writes into. Must match "Out" in /etc/cups/cups-pdf.conf.
+SPOOL_DIR=~/.secureprint/spool
+
+# Seconds to wait for the server to finish checking or masking a job.
+VERDICT_TIMEOUT=120
+
+# No printer attached (for example a demo laptop)? Leave both printers empty
+# and set a folder instead: the processed PDF is saved there and opened.
+RELEASE_DIR=
+
+# Port of the built-in printer receiver. macOS uses 8001 (setup-printer-mac.sh);
+# leave empty on Ubuntu, where cups-pdf writes into SPOOL_DIR directly.
+IPP_PORT=

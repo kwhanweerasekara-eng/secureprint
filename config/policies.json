@@ -1,0 +1,38 @@
+{
+  "PUBLIC": {
+    "min_score": 0,
+    "max_score": 20,
+    "require_alert": false,
+    "require_masking": false,
+    "require_watermark": false,
+    "require_footer": true,
+    "allow_printing": true
+  },
+  "INTERNAL": {
+    "min_score": 21,
+    "max_score": 40,
+    "require_alert": false,
+    "require_masking": false,
+    "require_watermark": false,
+    "require_footer": true,
+    "allow_printing": true
+  },
+  "CONFIDENTIAL": {
+    "min_score": 41,
+    "max_score": 70,
+    "require_alert": true,
+    "require_masking": true,
+    "require_watermark": false,
+    "require_footer": true,
+    "allow_printing": true
+  },
+  "RESTRICTED": {
+    "min_score": 71,
+    "max_score": 100,
+    "require_alert": true,
+    "require_masking": true,
+    "require_watermark": true,
+    "require_footer": true,
+    "allow_printing": true
+  }
+}

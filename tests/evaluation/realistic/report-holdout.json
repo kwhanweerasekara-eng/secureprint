@@ -1,0 +1,517 @@
+{
+  "dataset_size": 18,
+  "annotated_values": 45,
+  "value_precision": 0.8824,
+  "value_recall": 1.0,
+  "value_f1": 0.9375,
+  "value_false_detections": 6,
+  "value_recall_by_category": {
+    "bank_account": 1.0,
+    "credential": 1.0,
+    "email": 1.0,
+    "employee_id": 1.0,
+    "nic": 1.0,
+    "salary": 1.0,
+    "telephone": 1.0
+  },
+  "category_precision": 0.8235,
+  "category_recall": 1.0,
+  "category_f1": 0.9032,
+  "category_false_positives_by_category": {
+    "classification_marker": 3,
+    "bank_account": 3,
+    "telephone": 3
+  },
+  "category_misses_by_category": {},
+  "masking_values_checked": 45,
+  "masking_values_leaked": 0,
+  "masking_leak_rate": 0.0,
+  "masking_leaks_by_category": {},
+  "classification_accuracy_vs_provisional": 0.5,
+  "confusion_vs_provisional": {
+    "PUBLIC": {
+      "PUBLIC": 3,
+      "INTERNAL": 0,
+      "CONFIDENTIAL": 0,
+      "RESTRICTED": 0
+    },
+    "INTERNAL": {
+      "PUBLIC": 0,
+      "INTERNAL": 0,
+      "CONFIDENTIAL": 0,
+      "RESTRICTED": 0
+    },
+    "CONFIDENTIAL": {
+      "PUBLIC": 0,
+      "INTERNAL": 3,
+      "CONFIDENTIAL": 3,
+      "RESTRICTED": 6
+    },
+    "RESTRICTED": {
+      "PUBLIC": 0,
+      "INTERNAL": 0,
+      "CONFIDENTIAL": 0,
+      "RESTRICTED": 3
+    }
+  },
+  "reviewer_labelled_documents": 18,
+  "reviewers_simulated": true,
+  "classification_accuracy_vs_reviewers": 0.8333,
+  "confusion_vs_reviewers": {
+    "PUBLIC": {
+      "PUBLIC": 3,
+      "INTERNAL": 0,
+      "CONFIDENTIAL": 0,
+      "RESTRICTED": 0
+    },
+    "INTERNAL": {
+      "PUBLIC": 0,
+      "INTERNAL": 0,
+      "CONFIDENTIAL": 0,
+      "RESTRICTED": 0
+    },
+    "CONFIDENTIAL": {
+      "PUBLIC": 0,
+      "INTERNAL": 3,
+      "CONFIDENTIAL": 3,
+      "RESTRICTED": 0
+    },
+    "RESTRICTED": {
+      "PUBLIC": 0,
+      "INTERNAL": 0,
+      "CONFIDENTIAL": 0,
+      "RESTRICTED": 9
+    }
+  },
+  "analysis_ms_mean": 11.56,
+  "analysis_and_masking_ms_mean": 34.81,
+  "analysis_and_masking_ms_max": 87.57,
+  "per_document": [
+    {
+      "filename": "001_loan_application.pdf",
+      "doc_type": "loan_application",
+      "pages": 1,
+      "provisional_classification": "CONFIDENTIAL",
+      "reviewer_majority": "RESTRICTED",
+      "predicted_classification": "RESTRICTED",
+      "risk_score": 90,
+      "expected_categories": [
+        "bank_account",
+        "nic",
+        "salary",
+        "telephone"
+      ],
+      "predicted_categories": [
+        "bank_account",
+        "nic",
+        "salary",
+        "telephone"
+      ],
+      "missed_values": [],
+      "false_detections": [
+        "salary: Rs. 350,000"
+      ],
+      "leaked_after_masking": [],
+      "analysis_ms": 17.18,
+      "analysis_and_masking_ms": 52.85
+    },
+    {
+      "filename": "002_loan_application.pdf",
+      "doc_type": "loan_application",
+      "pages": 1,
+      "provisional_classification": "CONFIDENTIAL",
+      "reviewer_majority": "RESTRICTED",
+      "predicted_classification": "RESTRICTED",
+      "risk_score": 90,
+      "expected_categories": [
+        "bank_account",
+        "nic",
+        "salary",
+        "telephone"
+      ],
+      "predicted_categories": [
+        "bank_account",
+        "nic",
+        "salary",
+        "telephone"
+      ],
+      "missed_values": [],
+      "false_detections": [
+        "salary: 350,000"
+      ],
+      "leaked_after_masking": [],
+      "analysis_ms": 6.81,
+      "analysis_and_masking_ms": 27.28
+    },
+    {
+      "filename": "003_loan_application.pdf",
+      "doc_type": "loan_application",
+      "pages": 1,
+      "provisional_classification": "CONFIDENTIAL",
+      "reviewer_majority": "RESTRICTED",
+      "predicted_classification": "RESTRICTED",
+      "risk_score": 90,
+      "expected_categories": [
+        "bank_account",
+        "nic",
+        "salary",
+        "telephone"
+      ],
+      "predicted_categories": [
+        "bank_account",
+        "nic",
+        "salary",
+        "telephone"
+      ],
+      "missed_values": [],
+      "false_detections": [
+        "salary: 350,000"
+      ],
+      "leaked_after_masking": [],
+      "analysis_ms": 6.46,
+      "analysis_and_masking_ms": 38.76
+    },
+    {
+      "filename": "004_hr_letter.pdf",
+      "doc_type": "hr_letter",
+      "pages": 1,
+      "provisional_classification": "CONFIDENTIAL",
+      "reviewer_majority": "CONFIDENTIAL",
+      "predicted_classification": "INTERNAL",
+      "risk_score": 35,
+      "expected_categories": [
+        "employee_id"
+      ],
+      "predicted_categories": [
+        "classification_marker",
+        "employee_id"
+      ],
+      "missed_values": [],
+      "false_detections": [],
+      "leaked_after_masking": [],
+      "analysis_ms": 68.0,
+      "analysis_and_masking_ms": 87.57
+    },
+    {
+      "filename": "005_hr_letter.pdf",
+      "doc_type": "hr_letter",
+      "pages": 1,
+      "provisional_classification": "CONFIDENTIAL",
+      "reviewer_majority": "CONFIDENTIAL",
+      "predicted_classification": "INTERNAL",
+      "risk_score": 35,
+      "expected_categories": [
+        "employee_id"
+      ],
+      "predicted_categories": [
+        "classification_marker",
+        "employee_id"
+      ],
+      "missed_values": [],
+      "false_detections": [],
+      "leaked_after_masking": [],
+      "analysis_ms": 6.35,
+      "analysis_and_masking_ms": 24.58
+    },
+    {
+      "filename": "006_hr_letter.pdf",
+      "doc_type": "hr_letter",
+      "pages": 1,
+      "provisional_classification": "CONFIDENTIAL",
+      "reviewer_majority": "CONFIDENTIAL",
+      "predicted_classification": "INTERNAL",
+      "risk_score": 35,
+      "expected_categories": [
+        "employee_id"
+      ],
+      "predicted_categories": [
+        "classification_marker",
+        "employee_id"
+      ],
+      "missed_values": [],
+      "false_detections": [],
+      "leaked_after_masking": [],
+      "analysis_ms": 6.37,
+      "analysis_and_masking_ms": 24.8
+    },
+    {
+      "filename": "007_vendor_registration.pdf",
+      "doc_type": "vendor_registration",
+      "pages": 1,
+      "provisional_classification": "CONFIDENTIAL",
+      "reviewer_majority": "CONFIDENTIAL",
+      "predicted_classification": "CONFIDENTIAL",
+      "risk_score": 50,
+      "expected_categories": [
+        "bank_account",
+        "email",
+        "telephone"
+      ],
+      "predicted_categories": [
+        "bank_account",
+        "email",
+        "telephone"
+      ],
+      "missed_values": [],
+      "false_detections": [],
+      "leaked_after_masking": [],
+      "analysis_ms": 6.33,
+      "analysis_and_masking_ms": 24.8
+    },
+    {
+      "filename": "008_vendor_registration.pdf",
+      "doc_type": "vendor_registration",
+      "pages": 1,
+      "provisional_classification": "CONFIDENTIAL",
+      "reviewer_majority": "CONFIDENTIAL",
+      "predicted_classification": "CONFIDENTIAL",
+      "risk_score": 50,
+      "expected_categories": [
+        "bank_account",
+        "email",
+        "telephone"
+      ],
+      "predicted_categories": [
+        "bank_account",
+        "email",
+        "telephone"
+      ],
+      "missed_values": [],
+      "false_detections": [],
+      "leaked_after_masking": [],
+      "analysis_ms": 9.26,
+      "analysis_and_masking_ms": 38.69
+    },
+    {
+      "filename": "009_vendor_registration.pdf",
+      "doc_type": "vendor_registration",
+      "pages": 1,
+      "provisional_classification": "CONFIDENTIAL",
+      "reviewer_majority": "CONFIDENTIAL",
+      "predicted_classification": "CONFIDENTIAL",
+      "risk_score": 50,
+      "expected_categories": [
+        "bank_account",
+        "email",
+        "telephone"
+      ],
+      "predicted_categories": [
+        "bank_account",
+        "email",
+        "telephone"
+      ],
+      "missed_values": [],
+      "false_detections": [],
+      "leaked_after_masking": [],
+      "analysis_ms": 7.26,
+      "analysis_and_masking_ms": 29.46
+    },
+    {
+      "filename": "010_account_setup_email.pdf",
+      "doc_type": "account_setup_email",
+      "pages": 1,
+      "provisional_classification": "RESTRICTED",
+      "reviewer_majority": "RESTRICTED",
+      "predicted_classification": "RESTRICTED",
+      "risk_score": 80,
+      "expected_categories": [
+        "credential",
+        "email"
+      ],
+      "predicted_categories": [
+        "bank_account",
+        "credential",
+        "email"
+      ],
+      "missed_values": [],
+      "false_detections": [],
+      "leaked_after_masking": [],
+      "analysis_ms": 6.73,
+      "analysis_and_masking_ms": 27.31
+    },
+    {
+      "filename": "011_account_setup_email.pdf",
+      "doc_type": "account_setup_email",
+      "pages": 1,
+      "provisional_classification": "RESTRICTED",
+      "reviewer_majority": "RESTRICTED",
+      "predicted_classification": "RESTRICTED",
+      "risk_score": 80,
+      "expected_categories": [
+        "credential",
+        "email"
+      ],
+      "predicted_categories": [
+        "bank_account",
+        "credential",
+        "email"
+      ],
+      "missed_values": [],
+      "false_detections": [],
+      "leaked_after_masking": [],
+      "analysis_ms": 7.97,
+      "analysis_and_masking_ms": 27.72
+    },
+    {
+      "filename": "012_account_setup_email.pdf",
+      "doc_type": "account_setup_email",
+      "pages": 1,
+      "provisional_classification": "RESTRICTED",
+      "reviewer_majority": "RESTRICTED",
+      "predicted_classification": "RESTRICTED",
+      "risk_score": 80,
+      "expected_categories": [
+        "credential",
+        "email"
+      ],
+      "predicted_categories": [
+        "bank_account",
+        "credential",
+        "email"
+      ],
+      "missed_values": [],
+      "false_detections": [],
+      "leaked_after_masking": [],
+      "analysis_ms": 8.41,
+      "analysis_and_masking_ms": 36.4
+    },
+    {
+      "filename": "013_insurance_claim.pdf",
+      "doc_type": "insurance_claim",
+      "pages": 1,
+      "provisional_classification": "CONFIDENTIAL",
+      "reviewer_majority": "RESTRICTED",
+      "predicted_classification": "RESTRICTED",
+      "risk_score": 85,
+      "expected_categories": [
+        "bank_account",
+        "employee_id",
+        "nic",
+        "telephone"
+      ],
+      "predicted_categories": [
+        "bank_account",
+        "employee_id",
+        "nic",
+        "telephone"
+      ],
+      "missed_values": [],
+      "false_detections": [],
+      "leaked_after_masking": [],
+      "analysis_ms": 11.47,
+      "analysis_and_masking_ms": 33.82
+    },
+    {
+      "filename": "014_insurance_claim.pdf",
+      "doc_type": "insurance_claim",
+      "pages": 1,
+      "provisional_classification": "CONFIDENTIAL",
+      "reviewer_majority": "RESTRICTED",
+      "predicted_classification": "RESTRICTED",
+      "risk_score": 85,
+      "expected_categories": [
+        "bank_account",
+        "employee_id",
+        "nic",
+        "telephone"
+      ],
+      "predicted_categories": [
+        "bank_account",
+        "employee_id",
+        "nic",
+        "telephone"
+      ],
+      "missed_values": [],
+      "false_detections": [],
+      "leaked_after_masking": [],
+      "analysis_ms": 7.34,
+      "analysis_and_masking_ms": 28.36
+    },
+    {
+      "filename": "015_insurance_claim.pdf",
+      "doc_type": "insurance_claim",
+      "pages": 1,
+      "provisional_classification": "CONFIDENTIAL",
+      "reviewer_majority": "RESTRICTED",
+      "predicted_classification": "RESTRICTED",
+      "risk_score": 85,
+      "expected_categories": [
+        "bank_account",
+        "employee_id",
+        "nic",
+        "telephone"
+      ],
+      "predicted_categories": [
+        "bank_account",
+        "employee_id",
+        "nic",
+        "telephone"
+      ],
+      "missed_values": [],
+      "false_detections": [],
+      "leaked_after_masking": [],
+      "analysis_ms": 6.36,
+      "analysis_and_masking_ms": 25.84
+    },
+    {
+      "filename": "016_event_flyer.pdf",
+      "doc_type": "event_flyer",
+      "pages": 1,
+      "provisional_classification": "PUBLIC",
+      "reviewer_majority": "PUBLIC",
+      "predicted_classification": "PUBLIC",
+      "risk_score": 10,
+      "expected_categories": [],
+      "predicted_categories": [
+        "telephone"
+      ],
+      "missed_values": [],
+      "false_detections": [
+        "telephone: 011 209 7890"
+      ],
+      "leaked_after_masking": [],
+      "analysis_ms": 10.34,
+      "analysis_and_masking_ms": 40.63
+    },
+    {
+      "filename": "017_event_flyer.pdf",
+      "doc_type": "event_flyer",
+      "pages": 1,
+      "provisional_classification": "PUBLIC",
+      "reviewer_majority": "PUBLIC",
+      "predicted_classification": "PUBLIC",
+      "risk_score": 10,
+      "expected_categories": [],
+      "predicted_categories": [
+        "telephone"
+      ],
+      "missed_values": [],
+      "false_detections": [
+        "telephone: 011-2389650"
+      ],
+      "leaked_after_masking": [],
+      "analysis_ms": 9.24,
+      "analysis_and_masking_ms": 33.81
+    },
+    {
+      "filename": "018_event_flyer.pdf",
+      "doc_type": "event_flyer",
+      "pages": 1,
+      "provisional_classification": "PUBLIC",
+      "reviewer_majority": "PUBLIC",
+      "predicted_classification": "PUBLIC",
+      "risk_score": 10,
+      "expected_categories": [],
+      "predicted_categories": [
+        "telephone"
+      ],
+      "missed_values": [],
+      "false_detections": [
+        "telephone: 011 295 6934"
+      ],
+      "leaked_after_masking": [],
+      "analysis_ms": 6.25,
+      "analysis_and_masking_ms": 23.85
+    }
+  ]
+}
