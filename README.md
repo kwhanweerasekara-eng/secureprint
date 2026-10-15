@@ -2,6 +2,8 @@
 
 **Every page checked before it prints.**
 
+> **Tried SecurePrint or read about it? [Give us feedback](https://github.com/kwhanweerasekara-eng/secureprint/issues/new?template=review.yml)** with the review form, or join the [Reviews and feedback discussion](https://github.com/kwhanweerasekara-eng/secureprint/discussions/1).
+
 SecurePrint is a print data loss prevention (DLP) system. It adds a virtual printer to the staff computer, checks every document at the moment it is printed, classifies it, masks only the sensitive values, labels every page and keeps an audit trail. Staff print from any application as usual and simply choose the SecurePrint printer.
 
 It was built for small businesses that print personal data every day (pharmacies, clinics, offices) but cannot justify an enterprise DLP suite, and is proposed for Koswaththa Pharmacy and Grocery.

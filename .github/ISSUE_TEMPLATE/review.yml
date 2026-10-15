@@ -1,0 +1,50 @@
+name: Review / feedback
+description: Tell us what you think of SecurePrint
+title: "Review: "
+labels: ["review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing SecurePrint. Your honest feedback helps us improve it.
+  - type: input
+    id: role
+    attributes:
+      label: Your role
+      description: For example student, lecturer, security professional, business owner
+    validations:
+      required: true
+  - type: checkboxes
+    id: tried
+    attributes:
+      label: What did you try?
+      options:
+        - label: Read the README and the code
+        - label: Installed and ran SecurePrint
+        - label: Printed a document through the SecurePrint printer
+        - label: Watched a demo or read the Medium article
+  - type: dropdown
+    id: rating
+    attributes:
+      label: Rating from 1 to 5
+      description: 5 is best
+      options:
+        - "5"
+        - "4"
+        - "3"
+        - "2"
+        - "1"
+    validations:
+      required: true
+  - type: textarea
+    id: worked
+    attributes:
+      label: What worked well
+    validations:
+      required: true
+  - type: textarea
+    id: improve
+    attributes:
+      label: What should we improve
+    validations:
+      required: true
