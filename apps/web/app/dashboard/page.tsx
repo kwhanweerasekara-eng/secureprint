@@ -190,7 +190,7 @@ export default function DashboardPage() {
                 {stats.recent_jobs.length === 0 && (
                   <TableRow>
                     <TableCell colSpan={5} className="py-6 text-center text-muted-foreground">
-                      No print jobs yet. Head to Analyze to get started.
+                      No print jobs yet. Print a document to the SecurePrint Protected Printer to get started.
                     </TableCell>
                   </TableRow>
                 )}

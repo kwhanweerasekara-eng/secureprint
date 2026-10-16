@@ -18,7 +18,6 @@ import { cn } from "@/lib/utils";
 
 const WORKSPACE_NAV = [
   { href: "/dashboard", label: "Dashboard" },
-  { href: "/analyze", label: "Analyze" },
   { href: "/jobs", label: "Jobs" },
   { href: "/tokens", label: "Tokens" },
 ];

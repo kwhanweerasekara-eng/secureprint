@@ -9,7 +9,6 @@ import { Topbar } from "./Topbar";
 // gets a hero line instead of its page title.
 const PAGE_COPY: { prefix: string; heading?: string; subtitle: string }[] = [
   { prefix: "/dashboard", heading: "Print security, at a glance.", subtitle: "Every document checked, classified and masked before it reaches paper." },
-  { prefix: "/analyze", subtitle: "Drop a PDF to see what SecurePrint finds before you print it." },
   { prefix: "/jobs", subtitle: "Every print job, its classification and what happened to it." },
   { prefix: "/tokens", subtitle: "Access tokens for the print agents on your computers." },
   { prefix: "/audit", subtitle: "A tamper-evident record of every decision in the pipeline." },

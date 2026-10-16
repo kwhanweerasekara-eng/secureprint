@@ -91,6 +91,20 @@ def load_config(path: Path = CONFIG_PATH) -> dict[str, str]:
 # (--decide), e.g. in automated tests.
 # --------------------------------------------------------------------------
 
+def bring_to_front() -> None:
+    """The capture runs in the background, so on macOS its windows open behind
+    whatever app the user is in. Activating our own app brings the alert forward.
+    (Tk's lift and focus_force only work inside the app that is already active.)"""
+    if platform.system() == "Darwin":
+        # Fire and forget: the activate event is answered by this very process,
+        # so waiting for osascript here would block the reply and hang.
+        try:
+            subprocess.Popen(["osascript", "-e", 'tell application id "org.python.python" to activate'],
+                             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        except OSError as exc:
+            log.debug("Could not bring the alert to the front: %s", exc)
+
+
 class Ui:
     def __init__(self, forced_decision: str | None = None) -> None:
         self.forced = forced_decision
@@ -123,7 +137,7 @@ class Ui:
         if self.forced is not None:
             return
         if platform.system() == "Darwin":
-            script = f"display notification {json.dumps(message)} with title \"SecurePrint\""
+            script = f"display notification {json.dumps(message)} with title \"SecurePrint\" sound name \"Glass\""
             subprocess.run(["osascript", "-e", script], check=False)
         elif shutil.which("notify-send"):
             subprocess.run(["notify-send", "SecurePrint", message], check=False)
@@ -135,6 +149,7 @@ class Ui:
         from tkinter import messagebox
 
         _tk, root = self._tk()
+        bring_to_front()
         messagebox.showwarning(f"SecurePrint - {title}", message, parent=root)
         root.update()
 
@@ -184,6 +199,7 @@ class Ui:
         # No default button: Enter must not print by reflex. Esc and close cancel.
         root.bind("<Escape>", lambda _e: choose("cancel"))
         root.protocol("WM_DELETE_WINDOW", lambda: choose("cancel"))
+        bring_to_front()
         root.lift()
         root.focus_force()
         cancel.focus_set()
