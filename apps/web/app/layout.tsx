@@ -30,7 +30,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <AuthProvider>
           <TooltipProvider delay={300}>
             {children}
-            <Toaster />
+            <Toaster richColors position="top-right" visibleToasts={4} />
           </TooltipProvider>
         </AuthProvider>
       </body>

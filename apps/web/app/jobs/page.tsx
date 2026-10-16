@@ -23,7 +23,11 @@ export default function JobsPage() {
     const params = new URLSearchParams();
     if (statusFilter !== "ALL") params.set("status_filter", statusFilter);
     if (classificationFilter !== "ALL") params.set("classification", classificationFilter);
-    api.get<Job[]>(`/api/v1/jobs?${params.toString()}`).then(setJobs).catch(() => {});
+    const load = () => api.get<Job[]>(`/api/v1/jobs?${params.toString()}`).then(setJobs).catch(() => {});
+    load();
+    // Live: new print jobs appear without reloading the page.
+    const timer = setInterval(load, 4000);
+    return () => clearInterval(timer);
   }, [statusFilter, classificationFilter]);
 
   return (

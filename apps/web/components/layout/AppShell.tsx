@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { useAuth } from "@/hooks/useAuth";
 import { Topbar } from "./Topbar";
+import { LiveMonitor } from "@/components/LiveMonitor";
 
 // Large page heading and a muted subline for each section. The dashboard
 // gets a hero line instead of its page title.
@@ -55,6 +56,7 @@ export function AppShell({
   return (
     <div className="flex min-h-screen flex-col bg-background">
       <Topbar />
+      <LiveMonitor />
       <main className="flex-1 px-4 pt-10 pb-16 sm:px-6 sm:pt-14">
         <div className="mx-auto w-full max-w-6xl">
           <header className="mb-10">
