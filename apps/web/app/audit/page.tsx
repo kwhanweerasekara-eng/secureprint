@@ -1,10 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Download } from "lucide-react";
+import { Download, FileText } from "lucide-react";
 import { AppShell } from "@/components/layout/AppShell";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { api } from "@/lib/api";
@@ -30,11 +31,18 @@ const EVENT_TYPES = [
 const CLASSIFICATIONS = ["PUBLIC", "INTERNAL", "CONFIDENTIAL", "RESTRICTED"];
 const STATUSES = ["READY", "COMPLETED", "BLOCKED", "CANCELLED", "FAILED"];
 
+// yyyy-mm-dd for a date input, in local time.
+function isoDay(d: Date) {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
 export default function AuditPage() {
   const [events, setEvents] = useState<AuditEvent[]>([]);
   const [eventType, setEventType] = useState("ALL");
   const [classification, setClassification] = useState("ALL");
   const [statusFilter, setStatusFilter] = useState("ALL");
+  const [reportTo, setReportTo] = useState(() => isoDay(new Date()));
+  const [reportFrom, setReportFrom] = useState(() => isoDay(new Date(Date.now() - 6 * 86400000)));
 
   function buildParams() {
     const params = new URLSearchParams();
@@ -54,6 +62,32 @@ export default function AuditPage() {
 
   return (
     <AppShell title="Audit Log" adminOnly>
+      <Card className="mb-5">
+        <CardContent>
+          <div className="flex flex-wrap items-end gap-4">
+            <div className="mr-auto">
+              <p className="font-medium">Compliance report</p>
+              <p className="text-sm text-muted-foreground">
+                A PDF summary for a date range: documents by level, masked, cancelled and blocked jobs, the most common
+                sensitive data and jobs per user. No sensitive values are included.
+              </p>
+            </div>
+            <label className="text-xs text-muted-foreground">
+              From
+              <Input type="date" value={reportFrom} max={reportTo} onChange={(e) => setReportFrom(e.target.value)} className="mt-1 w-[160px]" />
+            </label>
+            <label className="text-xs text-muted-foreground">
+              To
+              <Input type="date" value={reportTo} min={reportFrom} onChange={(e) => setReportTo(e.target.value)} className="mt-1 w-[160px]" />
+            </label>
+            <a href={api.fileUrl(`/api/v1/reports/compliance?date_from=${reportFrom}&date_to=${reportTo}`)}>
+              <Button size="sm">
+                <FileText /> Download PDF
+              </Button>
+            </a>
+          </div>
+        </CardContent>
+      </Card>
       <Card>
         <CardContent>
           <div className="mb-4 flex flex-wrap items-center gap-3">

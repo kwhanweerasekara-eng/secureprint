@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from apps.api.config import get_settings
 from apps.api.database.session import SessionLocal, engine
 from apps.api.models import Base
-from apps.api.routes import audit, auth, dashboard, documents, jobs, notifications, policies, printers, rules, settings as settings_routes, tokens, users
+from apps.api.routes import audit, auth, dashboard, documents, jobs, notifications, policies, printers, reports, rules, settings as settings_routes, tokens, users
 from apps.api.services.seed import run_all_seeds
 
 settings = get_settings()
@@ -67,6 +67,7 @@ app.include_router(dashboard.router)
 app.include_router(settings_routes.router)
 app.include_router(tokens.router)
 app.include_router(notifications.router)
+app.include_router(reports.router)
 
 
 @app.get("/api/v1/health")
