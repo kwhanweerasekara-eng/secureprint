@@ -52,7 +52,14 @@
       "acc no",
       "account no",
       "account number",
-      "a/c"
+      "a/c",
+      "bank account",
+      "acct no",
+      "account #",
+      "savings account",
+      "current account",
+      "beneficiary account",
+      "a/c no"
     ],
     "description": "8-16 digit number, or digits in groups (1234 5678 9012), labelled as an account number"
   },
@@ -105,7 +112,12 @@
       "passphrase",
       "pwd",
       "wi-fi password",
-      "pin"
+      "pin",
+      "passcode",
+      "login password",
+      "pin code",
+      "pin number",
+      "otp"
     ],
     "description": "A password-shaped value (letters plus digits or symbols) under a Password column header or beside a Password label"
   },
@@ -197,7 +209,9 @@
     "enabled": true,
     "requires_keyword_context": true,
     "context_keywords": [
-      "passport"
+      "passport",
+      "travel document number",
+      "passport details"
     ],
     "description": "Generic alphanumeric passport number appearing near a passport label"
   },
@@ -226,7 +240,10 @@
       "staff no",
       "staff id",
       "emp id",
-      "employee code"
+      "employee code",
+      "staff number",
+      "employee #",
+      "emp code"
     ],
     "description": "Any letters-plus-digits code (SL/04512, E01234) labelled as an employee number"
   },
@@ -248,7 +265,15 @@
       "remuneration",
       "allowance",
       "bonus",
-      "expected salary"
+      "expected salary",
+      "take home pay",
+      "payslip",
+      "pay slip",
+      "overtime pay",
+      "wages",
+      "epf",
+      "etf",
+      "salary advance"
     ]
   },
   "salary_amount_context": {
@@ -266,7 +291,15 @@
       "payroll",
       "remuneration",
       "allowance",
-      "bonus"
+      "bonus",
+      "take home pay",
+      "payslip",
+      "pay slip",
+      "overtime pay",
+      "wages",
+      "epf",
+      "etf",
+      "salary advance"
     ],
     "description": "Amount with no currency prefix on a salary line, e.g. 'Salary: 285,000' (proposal Appendix B). Only the amount is masked; the label stays readable."
   }

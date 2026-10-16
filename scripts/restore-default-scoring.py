@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Puts SecurePrint's risk weights back to the shipped values in
-config/weights.json and turns masking back on for CONFIDENTIAL, through the
-running server's API, signed in as an administrator.
+config/weights.json, turns masking back on for CONFIDENTIAL, and adds any
+label words from config/patterns.json that the built-in detection rules are
+missing (words an admin added are kept). Runs through the running server's
+API, signed in as an administrator.
 
     python3 scripts/restore-default-scoring.py [--server http://localhost:8000]
 
@@ -17,7 +19,9 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-WEIGHTS_FILE = Path(__file__).resolve().parent.parent / "config" / "weights.json"
+CONFIG = Path(__file__).resolve().parent.parent / "config"
+WEIGHTS_FILE = CONFIG / "weights.json"
+PATTERNS_FILE = CONFIG / "patterns.json"
 
 
 def main() -> None:
@@ -55,6 +59,17 @@ def main() -> None:
         if policy["classification"] == "CONFIDENTIAL" and not policy["require_masking"]:
             call("PATCH", f"/policies/{policy['id']}", {"require_masking": True})
             print("  CONFIDENTIAL: Require Masking turned on")
+
+    shipped_rules = json.loads(PATTERNS_FILE.read_text())
+    for rule in call("GET", "/rules"):
+        cfg = shipped_rules.get(rule["name"])
+        if not cfg or not cfg.get("context_keywords"):
+            continue
+        current = [w.strip() for w in rule["context_keywords"].split(",") if w.strip()]
+        missing = [w for w in cfg["context_keywords"] if w not in current]
+        if missing:
+            call("PATCH", f"/rules/{rule['id']}", {"context_keywords": ",".join(current + missing)})
+            print(f"  Rule {rule['name']}: added {len(missing)} label words")
 
     call("POST", "/auth/logout")
     print("Done. New print jobs use the restored weights.")
