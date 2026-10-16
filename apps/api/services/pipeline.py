@@ -175,13 +175,23 @@ def run_analysis_pipeline(job_id: str) -> None:
         score = eng.scorer.calculate_risk(categories, weights)
         job.risk_score = score
         db.commit()
-        _audit(db, job_id=job.id, user_id=job.user_id, event_type=AuditEventType.RISK_SCORED, metadata={"risk_score": score})
+        # Points each distinct category added, kept with the job so the score
+        # can be explained later even if an admin changes the weights.
+        contributions = {c: weights.get(c, 0) for c, n in sorted(categories.items()) if n > 0}
+        _audit(
+            db,
+            job_id=job.id,
+            user_id=job.user_id,
+            event_type=AuditEventType.RISK_SCORED,
+            metadata={"risk_score": score, "contributions": contributions, "uncapped_score": sum(contributions.values())},
+        )
 
         thresholds = _load_thresholds(db)
         score_level = eng.classifier.classify(score, thresholds)
-        classification_str = eng.classifier.apply_floors(
-            score_level, eng.detector.value_categories(detections), _load_category_floors(db)
-        )
+        floors = _load_category_floors(db)
+        found_values = eng.detector.value_categories(detections)
+        classification_str = eng.classifier.apply_floors(score_level, found_values, floors)
+        raised_by = sorted(c for c in found_values if floors.get(c) == classification_str) if classification_str != score_level else []
         job.classification = Classification(classification_str)
         job.status = JobStatus.CLASSIFIED
         job.processing_time_ms = int((time.perf_counter() - started_at) * 1000)
@@ -193,7 +203,12 @@ def run_analysis_pipeline(job_id: str) -> None:
             event_type=AuditEventType.CLASSIFIED,
             message=f"Classification: {classification_str}"
             + (f" (raised from {score_level} by the sensitive data found)" if classification_str != score_level else ""),
-            metadata={"risk_score": score, "classification": classification_str, "score_classification": score_level},
+            metadata={
+                "risk_score": score,
+                "classification": classification_str,
+                "score_classification": score_level,
+                "raised_by": raised_by,
+            },
         )
 
         policy_row = db.query(ClassificationPolicy).filter(ClassificationPolicy.classification == job.classification).first()

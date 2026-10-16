@@ -8,6 +8,7 @@ import { ClassificationBadge, StatusBadge } from "@/components/status-badges";
 import { RiskMeter } from "@/components/ui/RiskMeter";
 import { PrintActions } from "@/components/analyze/PrintActions";
 import { Skeleton } from "@/components/ui/skeleton";
+import { ScoreBreakdown } from "@/components/jobs/ScoreBreakdown";
 import { api } from "@/lib/api";
 import { categoryLabel, eventLabel, formatDateTime, formatDuration } from "@/lib/utils";
 import type { JobDetail } from "@/types";
@@ -100,6 +101,15 @@ export default function JobDetailPage() {
                   <PrintActions jobId={job.id} onPrinted={reload} />
                 </div>
               )}
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle>Why this score?</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <ScoreBreakdown job={job} />
             </CardContent>
           </Card>
 
