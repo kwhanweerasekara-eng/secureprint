@@ -34,6 +34,7 @@ CATEGORY_LABELS = {
     "email": "Email addresses",
     "telephone": "Telephone numbers",
     "classification_marker": "Classification markers",
+    "health": "Health information",
 }
 
 

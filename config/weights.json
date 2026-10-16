@@ -10,5 +10,6 @@
   "employee_id": {"label": "Employee Identifier", "weight": 15},
   "email": {"label": "Email", "weight": 10},
   "telephone": {"label": "Telephone", "weight": 10},
-  "classification_marker": {"label": "Classification Marker", "weight": 20}
+  "classification_marker": {"label": "Classification Marker", "weight": 20},
+  "health": {"label": "Health Information", "weight": 30}
 }

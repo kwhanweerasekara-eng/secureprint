@@ -55,6 +55,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
   salary: "Salary Information",
   employee_id: "Employee IDs",
   classification_marker: "Classification Markers",
+  health: "Health Information",
 };
 
 export function categoryLabel(category: string): string {

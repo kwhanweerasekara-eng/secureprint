@@ -3,7 +3,12 @@
     "password",
     "passwd",
     "passphrase",
-    "pwd"
+    "pwd",
+    "passcode",
+    "login password",
+    "pin code",
+    "one time password",
+    "otp"
   ],
   "api_key": [
     "api key",
@@ -12,7 +17,12 @@
     "access token",
     "auth token",
     "client secret",
-    "private key"
+    "private key",
+    "api secret",
+    "secret key",
+    "bearer token",
+    "ssh key",
+    "client id and secret"
   ],
   "salary": [
     "salary",
@@ -21,34 +31,75 @@
     "net pay",
     "payroll",
     "monthly salary",
-    "salary slip"
+    "salary slip",
+    "basic pay",
+    "pay slip",
+    "payslip",
+    "take home pay",
+    "overtime pay",
+    "epf",
+    "etf",
+    "salary advance"
   ],
   "classification_marker": [
     "confidential",
     "restricted",
     "internal use only",
     "strictly private",
-    "top secret"
+    "top secret",
+    "private and confidential",
+    "for internal use only",
+    "do not distribute",
+    "do not copy",
+    "for official use only"
   ],
   "employee_id": [
     "employee id",
     "employee no",
     "staff id",
-    "emp id"
+    "emp id",
+    "employee number",
+    "staff no",
+    "staff number",
+    "emp no",
+    "service number"
   ],
   "bank_account": [
     "account",
     "acc no",
     "account no",
     "account number",
-    "a/c"
+    "a/c",
+    "bank account",
+    "savings account",
+    "current account",
+    "beneficiary account",
+    "account holder"
   ],
   "iban": [
-    "iban"
+    "iban",
+    "international bank account number"
   ],
   "passport": [
     "passport",
     "passport no",
-    "passport number"
+    "passport number",
+    "passport id",
+    "travel document number"
+  ],
+  "health": [
+    "prescription",
+    "diagnosis",
+    "medical history",
+    "medical record",
+    "patient name",
+    "patient id",
+    "dosage",
+    "medication history",
+    "blood group",
+    "allergies",
+    "lab report",
+    "medical condition",
+    "treatment plan"
   ]
 }

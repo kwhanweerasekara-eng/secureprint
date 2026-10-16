@@ -60,6 +60,7 @@ CATEGORY_LABELS = {
     "email": "Email address",
     "telephone": "Telephone number",
     "classification_marker": "Classification marker",
+    "health": "Health information",
 }
 
 SIDES_LABELS = {"two-sided-long-edge": "two-sided", "two-sided-short-edge": "two-sided (short edge)"}

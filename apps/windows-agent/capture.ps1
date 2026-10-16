@@ -110,6 +110,7 @@ $CategoryLabels = @{
     email                 = 'Email address'
     telephone             = 'Telephone number'
     classification_marker = 'Classification marker'
+    health = 'Health information'
 }
 
 function Get-CategoryLabel {
