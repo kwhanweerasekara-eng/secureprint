@@ -32,6 +32,13 @@ Every step is written to an audit log and shown on the web dashboard.
 
 If the server cannot be reached, the SecurePrint printer reports *Waiting for the SecurePrint server* and the operating system keeps the job in its print queue until the server is back. If a document cannot be read or the masking cannot be verified, nothing is printed and the user is told why.
 
+## Dashboard
+
+- **Live print monitor.** A pop-up appears on any dashboard page the moment a job is printed, coloured by level (with a chime for Restricted). It shows the document, what happened to it, the kinds of data found with counts and who printed it, never the values.
+- **Why this score?** Each job's page shows the points every kind of sensitive data added to the risk score, the total, and why a level was raised (for example a password found on its own).
+- **Compliance report.** On the Audit page, administrators can download a PDF for any date range: documents by level, masked, cancelled and blocked jobs, the most common sensitive data, jobs per user and recent restricted documents. It contains no detected values.
+- Jobs, the audit log, rules, policies, printers, users and access tokens are all managed from the dashboard. Documents are checked only by printing to the SecurePrint printer.
+
 ## Print capture
 
 | Platform | How the job is captured | Status |
@@ -45,7 +52,7 @@ The agent keeps the copies, two-sided and colour settings from the print dialog 
 ## Repository layout
 
 ```
-apps/api/                FastAPI server: upload, jobs, decisions, users, rules, policies, audit
+apps/api/                FastAPI server: print jobs, decisions, users, rules, policies, audit, reports
 apps/web/                Next.js dashboard
 apps/linux-agent/        Capture agent and printer setup for macOS and Ubuntu
 apps/windows-agent/      Capture agent for Windows (PowerShell)
@@ -100,7 +107,7 @@ Run these from the project folder. A Docker setup (`docker-compose.yml`, `make u
 ./.venv/bin/python -m pytest -q
 ```
 
-150 automated tests cover every detection rule, the layout context, scoring and floors, redaction and verification, the REST API, the print capture receiver and the virtual printer flow. The evaluation scripts are in `tests/evaluation/realistic/` and are described in `docs/evaluation-results.md`.
+156 automated tests cover every detection rule, the layout context, scoring and floors, redaction and verification, the REST API, the print capture receiver and the virtual printer flow. The evaluation scripts are in `tests/evaluation/realistic/` and are described in `docs/evaluation-results.md`.
 
 ## Results
 

@@ -160,7 +160,7 @@ python tests/evaluation/realistic/calibrate_thresholds.py calibrate   # kappa, t
 
 Unit tests for each fix are in `tests/test_detection_layout.py`, and the
 category floors are tested in `tests/test_virtual_printer_flow.py`. The full
-suite (150 tests) passes.
+suite (156 tests) passes.
 
 Four unused synthetic PDFs from an earlier dataset version
 (`045`-`048_confidential_credential_email`) and eight orphaned by the
