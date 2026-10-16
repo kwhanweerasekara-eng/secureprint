@@ -32,10 +32,10 @@ On **your** Mac, make a zip that leaves out the big, computer specific folders. 
 
 ```bash
 cd ~/Downloads
-zip -r secureprint.zip secureprint -x "secureprint/.venv/*" "*/node_modules/*" "*/.next/*" "secureprint/storage/*" "*/__pycache__/*" "secureprint/_backup*" "secureprint/.claude/*" "*.DS_Store"
+zip -r secureprint.zip secureprint -x "secureprint/.venv/*" "*/node_modules/*" "*/.next/*" "secureprint/storage/*" "*/__pycache__/*" "secureprint/_backup*" "*.DS_Store"
 ```
 
-This leaves out `storage`, so your friend starts with an empty database: no old print jobs and no audit history. The two demo accounts are created again automatically. It also leaves out the old backup folder and the settings Claude used on your Mac.
+This leaves out `storage`, so your friend starts with an empty database: no old print jobs and no audit history. The two demo accounts are created again automatically. It also leaves out the old backup folder.
 
 Send `secureprint.zip` to your friend (AirDrop, Google Drive or a USB stick). On their Mac, put it in Downloads and double click it, so they have `~/Downloads/secureprint`.
 

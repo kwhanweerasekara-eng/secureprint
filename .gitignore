@@ -35,7 +35,6 @@ apps/windows-agent/logs/
 logs/
 
 # Local tools, backups and working notes (not part of the product)
-.claude/
 _backup-before-update-*/
 CHANGES-*.txt
 apps/linux-agent/agent.conf

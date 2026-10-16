@@ -5,9 +5,9 @@ import fitz
 from tests.conftest import make_pdf
 
 LINES = [
-    "WSO2 COURSE COMPLETION CERTIFICATE",
-    "This is to certify that Kehan Weerasekera (Intern)",
-    "has successfully completed AI Gateway: Foundations",
+    "COURSE COMPLETION CERTIFICATE",
+    "This is to certify that Nimal Perera",
+    "has successfully completed Secure Printing Foundations",
 ]
 
 

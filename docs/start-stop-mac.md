@@ -34,7 +34,7 @@ The sections below do the same things by hand.
 
 If you can see the Terminal windows they are running in, click each one and press **Control + C**.
 
-If you can't find those windows (for example, Claude started them), run this instead:
+If you can't find those windows (for example, they were started in the background), run this instead:
 
 ```bash
 lsof -ti tcp:8000 -sTCP:LISTEN | xargs kill      # stops the API server
@@ -166,9 +166,3 @@ bash setup-printer-mac.sh --uninstall
 ```
 
 This stops the capture, stops it starting at login and removes the printer (it asks for your Mac password). Your settings in `~/.config/secureprint` are kept. Stop the server and the website as in step 1. To install again later, run `bash setup-printer-mac.sh`.
-
----
-
-## 6. Ending the Claude session on your Mac
-
-Claude has been working on your Mac through a Remote Control session. To end it, tell Claude in the project thread to stop it, or close the Terminal window it runs in. If Claude started the API server and website, ending the session may stop them too. Start them again with step 2.
