@@ -1,6 +1,6 @@
 # SecurePrint
 
-**Every page checked before it prints.**
+**Every page is checked before it prints.**
 
 > **Tried SecurePrint or read about it? [Give us feedback](https://github.com/kwhanweerasekara-eng/secureprint/issues/new?template=review.yml)** with the review form, or join the [Reviews and feedback discussion](https://github.com/kwhanweerasekara-eng/secureprint/discussions/1).
 
