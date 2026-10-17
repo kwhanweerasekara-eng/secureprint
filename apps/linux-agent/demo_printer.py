@@ -29,6 +29,8 @@ class DemoPrinter(Receiver):
     show = True
 
     def save(self, job_id: int, data: bytes) -> int:
+        # The output folder is on the Desktop, where it is easily tidied away.
+        self.spool.mkdir(parents=True, exist_ok=True)
         status = super().save(job_id, data)
         if status != ipp_receiver.OK:
             return status
